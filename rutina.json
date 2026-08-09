@@ -1,0 +1,24 @@
+{
+  "dias": {
+    "lunes": {
+      "nombre": "Empuje",
+      "ejercicios": [
+        {"nombre": "Press banca", "series": 4, "reps_objetivo": "6-8", "peso_inicial": 60},
+        {"nombre": "Press militar", "series": 3, "reps_objetivo": "8-10", "peso_inicial": 30}
+      ]
+    },
+    "miercoles": {
+      "nombre": "Tirón",
+      "ejercicios": [
+        {"nombre": "Dominadas asistidas", "series": 4, "reps_objetivo": "6-8", "peso_inicial": 0},
+        {"nombre": "Remo con barra", "series": 3, "reps_objetivo": "8-10", "peso_inicial": 40}
+      ]
+    },
+    "viernes": {
+      "nombre": "Pierna",
+      "ejercicios": [
+        {"nombre": "Sentadilla", "series": 4, "reps_objetivo": "6-8", "peso_inicial": 50}
+      ]
+    }
+  }
+}
