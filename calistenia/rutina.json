@@ -38,7 +38,7 @@
     "full_body_gimnasio": {
       "dias": ["miercoles"],
       "ejercicios": [
-        {"grupo": "traccion", "orden": 1, "nombre": "Dominadas australianas (barra baja)", "series": 2, "objetivo": "10-15 reps"},
+        {"grupo": "traccion", "orden": 1, "nombre": "Remo sentado en máquina (agarre divergente)", "series": 2, "objetivo": "8-12 reps", "nota": "Sustituye a la dominada australiana: no hay barra baja libre en el gimnasio del usuario. Actualizado 2026-08-20."},
         {"grupo": "traccion", "orden": 2, "nombre": "Dominadas completas / negativas (barra alta)", "series": 1, "objetivo": "4-8 reps"},
         {"grupo": "empuje", "orden": 1, "nombre": "Fondos en paralelas (no bajar de 90° de codo)", "series": 2, "objetivo": "6-10 reps"},
         {"grupo": "piernas", "orden": 1, "nombre": "Sentadilla isométrica (máquina/prensa)", "series": 2, "objetivo": "30-40 s"},

@@ -40,11 +40,13 @@ Orden dentro de cada grupo: el primer ejercicio lleva más series que el último
 
 ## Sesión Miércoles — Gimnasio
 
-Ejercicios elegidos porque necesitan barra baja o paralelas, algo que no hay en casa (la barra de casa solo permite colgarse, no dominadas australianas).
+Ejercicios elegidos porque necesitan un artefacto que no hay en casa (la barra de casa solo permite colgarse, no dominadas australianas ni fondos en paralelas).
+
+Nota (20/08/2026): el gimnasio del usuario no tiene barra baja libre para la dominada australiana (el único rack de sentadilla que serviría nunca está libre), así que la tracción 1 del miércoles pasa a ser remo sentado en máquina con agarre divergente, que es lo más parecido disponible. Si algún día el rack de sentadilla queda libre, se puede hacer dominada australiana ahí como alternativa puntual, sin que eso cambie el ejercicio por defecto.
 
 | # | Ejercicio | Series fijas | Objetivo |
 |---|---|---|---|
-| Tracción 1 | Dominadas australianas (barra baja) | 2 | 10-15 reps |
+| Tracción 1 | Remo sentado en máquina (agarre divergente) | 2 | 8-12 reps |
 | Tracción 2 | Dominadas completas / negativas (barra alta) | 1 | 4-8 reps |
 | Empuje 1 | Fondos en paralelas (no bajar de 90° de codo) | 2 | 6-10 reps |
 | Piernas 1 | Sentadilla isométrica (máquina/prensa) | 2 | 30-40 s |

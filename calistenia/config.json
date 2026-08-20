@@ -14,10 +14,10 @@
   "estado_principales": {
     "Flexiones": {"modo": "mantenimiento", "objetivo": "2 series x 8-12 reps", "ultimo_logrado": null},
     "Sentadilla en pared": {"modo": "mantenimiento", "objetivo": "2 series x 30-45 s", "ultimo_logrado": null},
-    "Plancha frontal": {"modo": "mantenimiento", "objetivo": "1 serie x 30-45 s", "ultimo_logrado": null},
-    "Dominadas australianas (barra baja, gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 10-15 reps", "ultimo_logrado": null},
-    "Fondos en paralelas (gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 6-10 reps", "ultimo_logrado": null},
-    "Sentadilla isométrica (máquina/prensa, gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 30-40 s", "ultimo_logrado": null}
+    "Plancha frontal": {"modo": "mantenimiento", "objetivo": "1 serie x 30-45 s", "ultimo_logrado": "30 s (2026-08-19, gimnasio)"},
+    "Remo sentado en máquina (gimnasio, sustituye dominada australiana)": {"modo": "mantenimiento", "objetivo": "2 series x 8-12 reps", "ultimo_logrado": "50 kg x 10 reps (2026-08-19, agarre divergente)"},
+    "Fondos en paralelas (gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 6-10 reps", "ultimo_logrado": "Máquina asistida con agarre de paralelas, 45 kg de asistencia (2026-08-19)"},
+    "Sentadilla isométrica (máquina/prensa, gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 30-40 s", "ultimo_logrado": "20 s, máquina de empuje horizontal, 52 kg (2026-08-19) — nº de series sin confirmar, por debajo del objetivo de 30-40 s"}
   },
   "cargas_actuales": {
     "Remo con mancuerna a 1 mano": {
@@ -25,5 +25,10 @@
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-08-20"
+  "ultima_fecha": "2026-08-19",
+  "ultima_sesion_completa": {
+    "fecha": "2026-08-19",
+    "dia": "miercoles_gimnasio",
+    "nota": "Sesión completa. Los secundarios (dominadas completas/negativas, bird dog) se apuntan en logs/2026-08.md por petición del usuario, sin entrar en estado_principales."
+  }
 }
