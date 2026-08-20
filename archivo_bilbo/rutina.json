@@ -1,0 +1,101 @@
+{
+  "documento_referencia": "rutina.md",
+  "tipo": "bilbo_adaptado_frecuencia_1",
+  "restricciones_obligatorias": [
+    "Ningún ejercicio de patrón de cadera/bisagra (peso muerto, RDL, hip thrust, pull-through) — duele la zona lumbar.",
+    "Ningún ejercicio libre de pierna, salvo la excepción autorizada (media sentadilla tras nuca) — duelen rodilla/cadera con ejercicios libres.",
+    "Excepción autorizada: media sentadilla tras nuca con barra, rango limitado por topes de seguridad del rack colocados justo antes del punto que duele.",
+    "La serie Bilbo nunca va al fallo. RIR 1-3 según el ejercicio.",
+    "No incluir ejercicios de relleno sin razón funcional explicable."
+  ],
+  "frecuencia": "Cinco sesiones cortas por semana. El grupo prioritario tiene frecuencia 2: martes F1 y viernes F2. Los otros tres grupos tienen frecuencia 1.",
+  "estructura_sesion": [
+    "1. Calentamiento específico del ejercicio principal (2-3 series de aproximación, sin fatigar).",
+    "2. Serie Bilbo del ejercicio principal.",
+    "3. 2-3 series convencionales adicionales del mismo ejercicio, 8-12 reps, más peso que la Bilbo, sin fallo.",
+    "4. Ejercicio secundario: 2 series, carga elegida libremente ese día, sin fallo y sin seguimiento."
+  ],
+  "tipos_ejercicio": {
+    "principal_bilbo": "Se registran carga o asistencia y repeticiones. Puede estar en modo mejora o mantenimiento.",
+    "secundario": "Trabajo complementario sin seguimiento ni progresión. El usuario ajusta la carga cada día."
+  },
+  "modelo_prioridad": {
+    "principales_en_mejora_a_la_vez": 1,
+    "foco_actual": {"grupo": "Pecho", "ejercicio": "Press banca"},
+    "siguiente_foco_previsto": {"grupo": "Hombro", "ejercicio": "Press militar de pie con barra"},
+    "dias_foco": {"F1": "martes", "F2": "viernes"},
+    "regla_calendario": "Al cambiar el foco, el nuevo grupo ocupa martes y viernes. Los otros tres grupos se redistribuyen entre lunes, miércoles y jueves.",
+    "duracion_foco": "Entre 1 y 3 ciclos Bilbo consecutivos.",
+    "regla_mantenimiento": "Los principales no prioritarios usan una carga o asistencia cercana a 25 repeticiones. Puede ajustarse por adaptación, sin objetivo de mejora."
+  },
+  "autorregulacion": "Sin semáforo. Se registran únicamente la carga o asistencia y las repeticiones reales por serie. Si el usuario necesita bajar peso o repeticiones, el propio registro reflejará la fatiga. Nunca se entrena al fallo y se interrumpe el ejercicio si aparece dolor que altera la técnica.",
+  "dias": {
+    "lunes": {
+      "grupo": "Pierna",
+      "principal": {
+        "nombre": "Media sentadilla tras nuca (rango limitado por topes de seguridad)",
+        "metodo": "bilbo",
+        "seguimiento": true,
+        "modo": "mantenimiento",
+        "repeticiones_referencia": 25,
+        "progresion": false,
+        "peso_actual": null,
+        "nota": "Excepción autorizada a la regla de 'sin ejercicios libres de pierna'. Topes del rack puestos justo antes del punto de dolor. Si molesta el hombro por la posición tras nuca, pasar a sentadilla frontal o high-bar."
+      },
+      "secundario": {"nombre": "Curl femoral en máquina", "series": 2, "reps_objetivo": "12-15", "seguimiento": false, "carga": "elegida_por_el_usuario_cada_sesion"}
+    },
+    "martes": {
+      "grupo": "Pecho — mejora F1",
+      "principal": {
+        "nombre": "Press banca",
+        "metodo": "bilbo",
+        "seguimiento": true,
+        "modo": "mejora",
+        "progresion": true,
+        "maximo_ciclos_bloque": 3,
+        "nota": "Foco actual de mejora. Se rastrea en Progresion_bilbo_V13.xlsx con parámetros propios, no con los pesos de la tabla externa de referencia."
+      },
+      "secundario": {"nombre": "Aperturas en polea o press inclinado ligero", "series": 2, "reps_objetivo": "10-12", "seguimiento": false, "carga": "elegida_por_el_usuario_cada_sesion"}
+    },
+    "miercoles": {
+      "grupo": "Espalda",
+      "principal": {
+        "nombre": "Dominada asistida en máquina",
+        "metodo": "bilbo",
+        "seguimiento": true,
+        "modo": "mantenimiento",
+        "repeticiones_referencia": 25,
+        "progresion": false,
+        "peso_actual": null
+      },
+      "secundario": {"nombre": "Remo en polea", "series": 2, "reps_objetivo": "10-12", "seguimiento": false, "carga": "elegida_por_el_usuario_cada_sesion"}
+    },
+    "jueves": {
+      "grupo": "Hombro",
+      "principal": {
+        "nombre": "Press militar de pie con barra",
+        "metodo": "bilbo",
+        "seguimiento": true,
+        "modo": "mantenimiento",
+        "repeticiones_referencia": 25,
+        "progresion": false,
+        "peso_actual": null
+      },
+      "secundario": {"nombre": "Face pull en polea", "series": 2, "reps_objetivo": "12-15", "seguimiento": false, "carga": "elegida_por_el_usuario_cada_sesion"}
+    },
+    "viernes": {
+      "grupo": "Pecho — mejora F2",
+      "principal": {
+        "nombre": "Press banca",
+        "metodo": "bilbo",
+        "seguimiento": true,
+        "modo": "mejora",
+        "progresion": true,
+        "maximo_ciclos_bloque": 3,
+        "nota": "Segunda sesión semanal del mismo ciclo. Avanza una sesión respecto al martes."
+      },
+      "secundario": {"nombre": "Aperturas en polea o press inclinado ligero", "series": 2, "reps_objetivo": "10-12", "seguimiento": false, "carga": "elegida_por_el_usuario_cada_sesion"}
+    }
+  },
+  "logica_orden_dias": "El grupo prioritario siempre va martes y viernes para espaciar F1 y F2. Los grupos de mantenimiento se colocan lunes, miércoles y jueves y se redistribuyen al cambiar el foco para reducir interferencias en lo posible."
+}

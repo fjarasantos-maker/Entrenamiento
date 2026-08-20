@@ -1,4 +1,29 @@
 {
-  "regla_progresion": "Si se completan todas las series en el rango de reps objetivo, subir 2.5kg la próxima sesión de ese ejercicio",
-  "estado_ejercicios": {}
+  "nota": "Rutina activa: calistenia + isométricos en casa (reemplaza al método Bilbo, archivado en archivo_bilbo/). Solo el foco de mejora persigue progresión formal, en Progresion_calistenia.xlsx. Los demás principales se mantienen en el objetivo fijo de rutina.md, ajustando ligeramente por adaptación. Los secundarios no llevan seguimiento.",
+  "rutina_activa": "calistenia_isometricos_casa",
+  "fecha_inicio": "2026-08-20",
+  "foco_mejora": {
+    "grupo": "Tracción",
+    "ejercicio": "Negativa controlada de dominada (dead hang previo)",
+    "dias": {"F1": "lunes", "F2": "viernes"},
+    "fase_actual": "Negativa controlada",
+    "criterio_avance": "Negativa de 8 s controlada x 4 repeticiones limpias, dos sesiones seguidas",
+    "siguiente_fase_prevista": "Dominada asistida / parcial",
+    "seguimiento": "Progresion_calistenia.xlsx"
+  },
+  "estado_principales": {
+    "Flexiones": {"modo": "mantenimiento", "objetivo": "2 series x 8-12 reps", "ultimo_logrado": null},
+    "Sentadilla en pared": {"modo": "mantenimiento", "objetivo": "2 series x 30-45 s", "ultimo_logrado": null},
+    "Plancha frontal": {"modo": "mantenimiento", "objetivo": "1 serie x 30-45 s", "ultimo_logrado": null},
+    "Dominadas australianas (barra baja, gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 10-15 reps", "ultimo_logrado": null},
+    "Fondos en paralelas (gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 6-10 reps", "ultimo_logrado": null},
+    "Sentadilla isométrica (máquina/prensa, gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 30-40 s", "ultimo_logrado": null}
+  },
+  "cargas_actuales": {
+    "Remo con mancuerna a 1 mano": {
+      "peso_por_mancuerna_kg": "~7.5 (mango sin pesar + disco 5kg + disco 1kg, pendiente de confirmar peso exacto del mango)",
+      "referencia": "material_casa.md"
+    }
+  },
+  "ultima_fecha": "2026-08-20"
 }

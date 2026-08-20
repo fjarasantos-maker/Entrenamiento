@@ -1,0 +1,26 @@
+{
+  "nota": "Todos los principales llevan seguimiento. Solo el foco actual busca mejora mediante hasta tres ciclos en Progresion_bilbo_V13.xlsx. Los demas se mantienen alrededor de 25 repeticiones. Los secundarios no se registran.",
+  "foco_mejora": {
+    "grupo": "Pecho",
+    "ejercicio": "Press banca",
+    "frecuencia": 2,
+    "dias": {"F1": "martes", "F2": "viernes"},
+    "maximo_ciclos": 3,
+    "siguiente_foco_previsto": "Hombro — Press militar de pie con barra"
+  },
+  "calendario_actual": {
+    "lunes": "Pierna — mantenimiento",
+    "martes": "Pecho — mejora F1",
+    "miercoles": "Espalda — mantenimiento",
+    "jueves": "Hombro — mantenimiento",
+    "viernes": "Pecho — mejora F2"
+  },
+  "regla_mantenimiento": "Elegir una carga o asistencia que permita aproximadamente 25 repeticiones con las reservas respetadas. Se puede ajustar la carga por adaptacion, pero el objetivo no es progresar.",
+  "estado_principales": {
+    "Media sentadilla tras nuca": {"modo": "mantenimiento", "peso_actual": 40, "ultimas_repeticiones": 25, "posicion_topes_rack": null},
+    "Press banca": {"modo": "mejora", "seguimiento": "Progresion_bilbo_V13.xlsx"},
+    "Dominada asistida en máquina": {"modo": "mantenimiento", "nivel_asistencia": null, "ultimas_repeticiones": null},
+    "Press militar de pie con barra": {"modo": "mantenimiento", "peso_actual": null, "ultimas_repeticiones": null}
+  },
+  "ultima_fecha": "2026-08-10"
+}
