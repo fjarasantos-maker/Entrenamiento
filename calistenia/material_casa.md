@@ -17,6 +17,14 @@ Registrado el 2026-08-20. Referencia para dosificar cargas en los ejercicios con
 
 Ejercicio secundario de tracción del plan de casa (1 serie x 10-12 reps/lado). Objetivo: llegar a la última repetición con 2-3 en reserva, sin perder la forma ni notar molestia en hombro/codo.
 
-Punto de partida sugerido: mango (~1.5 kg) + 1 disco de 5 kg + 1 disco de 1 kg ≈ 7.5 kg por mancuerna. Ajustar con los discos de 1 kg y 2 kg (incrementos finos) según cómo responda cada sesión: si a las 8 repeticiones ya pierde la forma, bajar un escalón; si a las 12 sobra margen, subir un escalón la semana siguiente, no en la misma sesión.
+**Corrección (20/08/2026):** los discos se cargan simétricos, uno en cada extremo del mango, no todos del mismo lado. El punto de partida real es mango (~1.5 kg) + 1 disco de 1 kg en cada extremo ≈ 3.5 kg por mancuerna, no la combinación anterior de 7.5 kg (que había asumido carga solo de un lado).
+
+Ajustar siempre en pares simétricos (un disco igual en cada extremo): si a las 8 repeticiones ya pierde la forma, bajar un escalón (quitar el par de 1 kg); si a las 12 sobra margen, subir un escalón la semana siguiente —por ejemplo pasar a un par de 2 kg— no en la misma sesión.
+
+Escalones disponibles con el inventario actual (siempre mismo disco/s en cada extremo):
+- Mango + 1 kg/lado ≈ 3.5 kg — arranque muy conservador.
+- Mango + 2 kg/lado ≈ 5.5 kg.
+- Mango + 2 kg + 1 kg/lado ≈ 7.5 kg — el objetivo inicial original, repartido simétrico.
+- Mango + 5 kg/lado ≈ 11.5 kg — para más adelante.
 
 Pendiente: pesar los mangos de mancuerna en una báscula para afinar el número exacto de partida.

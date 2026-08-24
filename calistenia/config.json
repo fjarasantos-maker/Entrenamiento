@@ -4,31 +4,54 @@
   "fecha_inicio": "2026-08-20",
   "foco_mejora": {
     "grupo": "Tracción",
-    "ejercicio": "Negativa controlada de dominada (dead hang previo)",
+    "ejercicio": "Dead hang (agarre)",
+    "lugar": "casa",
     "dias": {"F1": "lunes", "F2": "viernes"},
-    "fase_actual": "Negativa controlada",
-    "criterio_avance": "Negativa de 8 s controlada x 4 repeticiones limpias, dos sesiones seguidas",
-    "siguiente_fase_prevista": "Dominada asistida / parcial",
-    "seguimiento": "Progresion_calistenia.xlsx"
+    "fase_actual": "Dead hang a dos manos",
+    "objetivo_inicial_s": 15,
+    "incremento_s_por_sesion": 1,
+    "primera_sesion": "2026-08-28",
+    "criterio_avance": "2 series de 40 s limpias, dos sesiones seguidas",
+    "siguiente_fase_prevista": "A decidir con el usuario: hang a una mano asistido, o reintroducir la negativa en casa",
+    "seguimiento": "Progresion_calistenia.xlsx",
+    "historial_cambios": "2026-08-24: el foco pasa de la negativa de dominada al dead hang. El usuario identifica el agarre como su factor limitante y prefiere hacer las dominadas/negativas solo en el gimnasio."
   },
   "estado_principales": {
-    "Flexiones": {"modo": "mantenimiento", "objetivo": "2 series x 8-12 reps", "ultimo_logrado": null},
-    "Sentadilla en pared": {"modo": "mantenimiento", "objetivo": "2 series x 30-45 s", "ultimo_logrado": null},
-    "Plancha frontal": {"modo": "mantenimiento", "objetivo": "1 serie x 30-45 s", "ultimo_logrado": "30 s (2026-08-19, gimnasio)"},
+    "Flexiones": {"modo": "mantenimiento", "objetivo": "2 series x 8-12 reps", "ultimo_logrado": "3 series: 10, 10, 8 reps (2026-08-24)"},
+    "Sentadilla en pared": {"modo": "mantenimiento", "objetivo": "2 series x 30-45 s", "ultimo_logrado": "2 series x 25 s (2026-08-24) — muy fatigado, por debajo del objetivo"},
+    "Plancha frontal": {"modo": "retirado_temporalmente", "objetivo": "1 serie x 30-45 s", "ultimo_logrado": "NO REALIZADA por dolor lumbar (2026-08-24); 20 s (2026-08-22, casa)", "nota": "Sustituida por dead bug durante la descarga."},
+    "Dead bug isométrico": {"modo": "mantenimiento", "objetivo": "1 serie x 20-30 s", "ultimo_logrado": null},
     "Remo sentado en máquina (gimnasio, sustituye dominada australiana)": {"modo": "mantenimiento", "objetivo": "2 series x 8-12 reps", "ultimo_logrado": "50 kg x 10 reps (2026-08-19, agarre divergente)"},
     "Fondos en paralelas (gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 6-10 reps", "ultimo_logrado": "Máquina asistida con agarre de paralelas, 45 kg de asistencia (2026-08-19)"},
     "Sentadilla isométrica (máquina/prensa, gimnasio)": {"modo": "mantenimiento", "objetivo": "2 series x 30-40 s", "ultimo_logrado": "20 s, máquina de empuje horizontal, 52 kg (2026-08-19) — nº de series sin confirmar, por debajo del objetivo de 30-40 s"}
   },
   "cargas_actuales": {
     "Remo con mancuerna a 1 mano": {
-      "peso_por_mancuerna_kg": "~7.5 (mango sin pesar + disco 5kg + disco 1kg, pendiente de confirmar peso exacto del mango)",
+      "peso_por_mancuerna_kg": "~3.5 (mango sin pesar + 1 disco de 1kg en cada extremo, carga simétrica. Corregido 2026-08-20: la versión anterior asumía carga solo de un lado)",
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-08-19",
+  "ultima_fecha": "2026-08-24",
   "ultima_sesion_completa": {
-    "fecha": "2026-08-19",
-    "dia": "miercoles_gimnasio",
-    "nota": "Sesión completa. Los secundarios (dominadas completas/negativas, bird dog) se apuntan en logs/2026-08.md por petición del usuario, sin entrar en estado_principales."
-  }
+    "fecha": "2026-08-24",
+    "dia": "casa",
+    "nota": "Sesión mala: usuario sin energía, sensaciones malas, entrenó tras solo un día de descanso. DOS avisos de dolor: (1) dolor punzante en hombro izquierdo durante el dead hang, tras el pike push-up — cortó la serie de tracción; (2) dolor lumbar tras el puente de glúteo pese a los cuidados de técnica dados el 22/08, y no pudo hacer plancha ni bird dog. Progresion_calistenia.xlsx sigue sin registrar (solo 4 negativas sueltas, serie incompleta)."
+  },
+  "descarga_activa": {
+    "desde": "2026-08-24",
+    "motivo": "Dos sesiones seguidas con dolor lumbar más dolor de hombro izquierdo. El usuario lo atribuye a sobrecarga acumulada y descarta causa estructural.",
+    "cambios": [
+      "En casa se mantiene solo el dead hang (2 series x 15-25 s), que pasa a ser el foco de mejora. Las negativas y dominadas se hacen únicamente el miércoles en el gimnasio.",
+      "Puente de glúteo isométrico sustituido por almeja isométrica (clamshell) — sin carga lumbar.",
+      "Plancha frontal y bird dog sustituidos por dead bug isométrico — lumbar pegada al suelo.",
+      "Tiempos y repeticiones bajados en todos los ejercicios. Series fijas 2/1, no subir a 3."
+    ],
+    "criterio_salida": "Dos sesiones seguidas sin dolor y con sensaciones buenas. Entonces se recupera progresivamente el volumen, empezando por los tiempos, no por las series.",
+    "criterio_alarma": "Si el dolor lumbar o de hombro reaparece con este volumen reducido, deja de ser atribuible a carga: recomendar valoración por fisioterapeuta."
+  },
+  "temas_abiertos": [
+    "Vigilar el hombro izquierdo en el dead hang: el 24/08 fue el factor limitante (dolor punzante), por delante del agarre. Si vuelve a aparecer, no seguir sumando tiempo.",
+    "Asimetría de agarre: mano izquierda más débil (2026-08-22). Anotar en las notas del xlsx cómo va cada mano.",
+    "Recuperar plancha frontal y bird dog cuando la lumbar esté asintomática; de momento el core lo cubre el dead bug."
+  ]
 }
