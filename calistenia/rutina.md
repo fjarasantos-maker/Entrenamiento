@@ -34,7 +34,7 @@ Orden dentro de cada grupo: el primer ejercicio lleva más series que el último
 | Tracción 1 | Dead hang (foco de mejora — agarre) | 2 | 15-25 s |
 | Tracción 2 | Remo con mancuerna a 1 mano | 1 | 10-12 reps/lado — ver carga en `material_casa.md` |
 | Piernas 1 | Sentadilla en pared | 2 | 25-30 s |
-| Piernas 2 | Almeja isométrica (clamshell, tumbado de lado) | 1 | 20-30 s/lado |
+| Piernas 2 | Abducción isométrica con pierna estirada (tumbado de lado) | 1 | 20-30 s/lado |
 | Piernas 3 | Zancada isométrica (apoyo en pared) | 1 | 15-20 s/lado |
 | Core 1 | Dead bug isométrico (lumbar pegada al suelo) | 1 | 20-30 s |
 
@@ -45,6 +45,21 @@ Orden dentro de cada grupo: el primer ejercicio lleva más series que el último
 - Tiempos y repeticiones bajados en todos los ejercicios. Se mantienen las series fijas: 2 en el primer ejercicio de cada grupo, 1 en el resto. **No subir a 3 series durante la descarga.**
 - Añadir un día de descanso extra si la sesión anterior dejó mala sensación: mejor entrenar tres días con energía que tres días arrastrando fatiga.
 
+**Descansos entre series — añadido el 31/08/2026.** Hasta ahora la rutina no los especificaba y el usuario encadenaba los isométricos de pierna sin pausa, lo que le impedía sumar segundos en la última serie. Referencias:
+
+| Ejercicio | Descanso entre series |
+|---|---|
+| Dead hang | 2 min (el agarre es lo que más tarda en recuperarse) |
+| Flexiones | 90 s |
+| Isométricos de pierna (sentadilla en pared, zancada, abducción) | 90 s entre series **y entre ejercicios distintos de pierna** |
+| Pike push-up, dead bug, remo | 60 s |
+
+Regla general: si la siguiente serie sale claramente peor que la anterior, es señal de que faltó descanso, no de que falte capacidad.
+
+**Calendario fijo desde el 31/08/2026: lunes, miércoles y viernes.** Decisión del usuario tras acumular cuatro sesiones con un solo día de descanso entre ellas y llegar muy cansado. Con este calendario siempre hay un día de descanso entre sesiones y dos seguidos el fin de semana. No entrenar en sábado ni domingo aunque apetezca: el descanso del finde es parte del plan, no un hueco libre.
+
+**Cambio del 28/08/2026 — la almeja se endurece.** Con 60 s por lado sin esfuerzo, el clamshell se había quedado corto. Pasa a **abducción isométrica con la pierna estirada**: tumbado de lado, pierna de arriba recta y alineada con el tronco (talón ligeramente hacia atrás, no hacia delante), la subes unos 30-40 cm y la mantienes. Mismo glúteo medio, sin carga lumbar, bastante más exigente. Si con el tiempo también se queda corta, el siguiente escalón es apoyar un disco de 2 kg sobre el muslo, no alargar el tiempo indefinidamente.
+
 ## Sesión Miércoles — Gimnasio
 
 Ejercicios elegidos porque necesitan un artefacto que no hay en casa (la barra de casa solo permite colgarse, no dominadas australianas ni fondos en paralelas).
@@ -53,12 +68,17 @@ Nota (20/08/2026): el gimnasio del usuario no tiene barra baja libre para la dom
 
 | # | Ejercicio | Series fijas | Objetivo |
 |---|---|---|---|
-| Tracción 1 | Remo sentado en máquina (agarre divergente) | 2 | 8-12 reps |
-| Tracción 2 | Dominadas completas / negativas (barra alta) | 2 | 3-5 reps — único día donde se hacen |
+| Tracción 1 | Dominada australiana en el rack — **si está libre** | 2 | 10-15 reps |
+| Tracción 1 · sustituto | Remo sentado en máquina (agarre divergente) | 2 | 8-12 reps — solo si el rack está ocupado |
+| Tracción 2 | Dominada asistida / negativas (barra alta) | 2 | 3-5 reps — único día donde se hacen |
 | Empuje 1 | Fondos en paralelas (no bajar de 90° de codo) | 2 | 6-10 reps |
-| Piernas 1 | Sentadilla isométrica (máquina/prensa) | 2 | 30-40 s |
+| Piernas 1 | Sentadilla isométrica (máquina de poleas) | 2 | 30-40 s |
 | Piernas · sustituto si está ocupado | Sentadilla en pared | 2 | 30-45 s (no se suma aparte, es sustituto) |
+| Bíceps | Curl con barra W | 3 | 10 reps |
+| Tríceps | Press francés con barra W | 3 | 10 reps |
 | Core 1 | Dead bug isométrico (lumbar pegada al suelo) | 1 | 20-30 s |
+
+Actualización 26/08/2026: el rack de sentadilla sí estuvo libre, así que la dominada australiana vuelve a ser la tracción 1 preferente y el remo de máquina pasa a sustituto. El usuario añade bíceps y tríceps con barra W, aprovechando que en el gimnasio sí hay pesas — son los únicos ejercicios de aislamiento del plan y solo se hacen este día.
 
 La plancha frontal y el bird dog también se retiran del día de gimnasio (24/08/2026), por coherencia con la descarga: si dan dolor lumbar en casa, lo darán igual aquí.
 

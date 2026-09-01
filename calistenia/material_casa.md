@@ -24,7 +24,8 @@ Ajustar siempre en pares simétricos (un disco igual en cada extremo): si a las 
 Escalones disponibles con el inventario actual (siempre mismo disco/s en cada extremo):
 - Mango + 1 kg/lado ≈ 3.5 kg — arranque muy conservador.
 - Mango + 2 kg/lado ≈ 5.5 kg.
-- Mango + 2 kg + 1 kg/lado ≈ 7.5 kg — el objetivo inicial original, repartido simétrico.
+- Mango + 2 kg + 1 kg/lado ≈ 7.5 kg — **usado el 22, 24 y 28/08**. El 28 dio para 15 repeticiones, por encima del objetivo de 10-12.
+- Mango + 2 kg + 2 kg/lado ≈ 9.5 kg — **siguiente escalón**, a partir de la sesión del 31/08.
 - Mango + 5 kg/lado ≈ 11.5 kg — para más adelante.
 
 Pendiente: pesar los mangos de mancuerna en una báscula para afinar el número exacto de partida.
