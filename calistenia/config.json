@@ -19,11 +19,11 @@
     "seguimiento": "Progresion_calistenia.xlsx",
     "historial_cambios": "2026-08-24: el foco pasa de la negativa de dominada al dead hang. El usuario identifica el agarre como su factor limitante y prefiere hacer las dominadas/negativas solo en el gimnasio.",
     "ultima_sesion_registrada": {
-      "sesion": 2,
-      "fecha": "2026-08-31",
-      "objetivo_s": 16,
-      "resultado": "3 series: 30 / 15 / 10 s. Solo 1 serie alcanza el objetivo (antes 2). Primera serie clavada en 30 s por segunda vez.",
-      "lectura": "La capacidad de una serie aislada está en 30 s; lo que falla es repetirla. Causa probable: descanso insuficiente entre series, no falta de agarre.",
+      "sesion": 3,
+      "fecha": "2026-09-07",
+      "objetivo_s": 17,
+      "resultado": "3 series: 20 / 20 / 13 s. 2 de 3 cumplen objetivo.",
+      "lectura": "Perfil mucho más plano que el 31/08 (30/15/10). La 2ª serie sube de 15 a 20 s: la repetibilidad mejora, que era justo el problema. A cambio baja el pico de 30 a 20 s. Total casi idéntico (53 vs 55 s). Pendiente saber si descansó más entre series o si influye la semana sin entrenar.",
       "dolor_hombro": false
     }
   },
@@ -31,12 +31,12 @@
     "Flexiones": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 8-12 reps",
-      "ultimo_logrado": "3 series x 12 reps = 36 total (2026-08-31) — récord"
+      "ultimo_logrado": "3 series x 13 reps = 39 total (2026-09-07) — récord, 4ª subida consecutiva"
     },
     "Sentadilla en pared": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 30-45 s",
-      "ultimo_logrado": "30 s + 25 s = 55 s (2026-08-31) — baja desde 65 s; hecha sin descanso entre isométricos de pierna"
+      "ultimo_logrado": "40 s + 40 s = 80 s (2026-09-07) — récord amplio; series iguales, sin caída"
     },
     "Plancha frontal": {
       "modo": "mantenimiento",
@@ -47,7 +47,7 @@
     "Dead bug isométrico": {
       "modo": "mantenimiento",
       "objetivo": "1 serie x 20-30 s",
-      "ultimo_logrado": "30 s (2026-08-31) — récord"
+      "ultimo_logrado": "30 s (2026-09-07) — iguala récord"
     },
     "Fondos en paralelas (gimnasio)": {
       "modo": "mantenimiento",
@@ -90,23 +90,25 @@
   "cargas_actuales": {
     "Remo con mancuerna a 1 mano": {
       "peso_por_mancuerna_kg": "9,5 (8 kg en discos — 2 kg + 2 kg en cada extremo — más el mango, ~1,5 kg sin pesar)",
-      "ultimo_logrado": "15 reps @ 9,5 kg (2026-08-31): sigue por encima del objetivo de 10-12 pese a la subida",
-      "siguiente_paso": "Si vuelve a hacer 15 reps limpias, subir a 11,5 kg (5 kg por lado).",
+      "ultimo_logrado": "15 reps @ 9,5 kg (2026-09-07) — tercera sesión seguida con 15 reps",
+      "siguiente_paso": "Subir a 11,5 kg (5 kg por lado) en la próxima sesión de casa. Ya se cumplió el criterio: 15 reps limpias repetidas.",
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-08-31",
+  "ultima_fecha": "2026-09-07",
   "ultima_sesion_completa": {
-    "fecha": "2026-08-31",
-    "dia": "casa (lunes, primer día del calendario fijo)",
-    "nota": "Tras dos días de descanso. Récord en flexiones (36), pike (35 s totales, 16 s en serie única) y dead bug (30 s). Sentadilla en pared bajó (55 s vs 65 s) y el dead hang solo cumplió objetivo en 1 de 3 series. El usuario detecta la causa: encadenó los isométricos de pierna sin descanso. Se añaden descansos entre series a la rutina."
+    "fecha": "2026-09-07",
+    "dia": "casa (lunes)",
+    "nota": "Vuelta tras una semana sin sesiones registradas (última: 31/08). Récord en flexiones (39), pike (37 s), sentadilla en pared (80 s) y zancada (60 s). Lo más relevante: en sentadilla y zancada las dos series salieron iguales, sin caída — señal de que los descansos añadidos el 31/08 están funcionando. En el dead hang el perfil también se aplana."
   },
   "temas_abiertos": [
-    "Dead hang: la primera serie lleva dos sesiones clavada en 30 s y las siguientes caen. Probar con 2 min de descanso entre series antes de tocar el objetivo del ciclo.",
-    "Fondos en paralelas: quitar la asistencia el próximo miércoles. Confirmar de paso la lectura de asistencia (el salto de 45 kg a 4,5 kg entre el 19 y el 26 es muy grande).",
-    "Remo con mancuerna: con 9,5 kg sigue haciendo 15 reps. Si se repite, subir a 11,5 kg.",
-    "Lado izquierdo más débil de forma consistente: agarre izquierdo en el dead hang y zancada izquierda más inestable. Solo vigilar.",
-    "El usuario hace 3 series donde la rutina marca 2. Sin dolor y con récords; decidir si se formaliza tras un par de semanas con el calendario fijo."
+    "CONFIRMAR: no hay registro de sesiones entre el 31/08 y el 07/09 (faltarían miércoles 2 y viernes 4). Preguntar al usuario si fueron descanso o si están sin apuntar.",
+    "Dead hang: el pico baja de 30 a 20 s pero la 2ª serie sube de 15 a 20 s. Saber si descansó los 2 min pautados, para atribuirlo bien.",
+    "Remo con mancuerna: subir ya a 11,5 kg. Lleva tres sesiones haciendo 15 reps.",
+    "Fondos en paralelas: quitar la asistencia en el próximo día de gimnasio. Confirmar de paso la lectura de asistencia (salto de 45 kg a 4,5 kg entre el 19 y el 26/08).",
+    "El día de gimnasio no se registra desde el 26/08. Si se han hecho miércoles, faltan por apuntar.",
+    "Lado izquierdo más débil (agarre y zancada). Solo vigilar.",
+    "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza."
   ],
   "calendario_fijo": {
     "desde": "2026-08-31",
