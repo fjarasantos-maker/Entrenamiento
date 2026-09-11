@@ -47,23 +47,24 @@
     "Dead bug isométrico": {
       "modo": "mantenimiento",
       "objetivo": "1 serie x 20-30 s",
-      "ultimo_logrado": "30 s (2026-09-07) — iguala récord"
+      "ultimo_logrado": "2 series x 25 s (2026-09-09, gimnasio); 30 s (2026-09-07, casa)"
     },
     "Fondos en paralelas (gimnasio)": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 6-10 reps",
-      "ultimo_logrado": "3 series x 6 reps con asistencia −4,5 kg (2026-08-26) — el usuario lo vio fácil",
-      "siguiente_paso": "Probar sin asistencia."
+      "ultimo_logrado": "LIBRES sin asistencia: 10, 10, 5 reps (2026-09-09)",
+      "hito": "Asistencia retirada por completo. Dos series en el techo del objetivo.",
+      "siguiente_paso": "Objetivo cumplido y superado: replantear el rango de reps o añadir dificultad."
     },
     "Sentadilla isométrica (máquina/prensa, gimnasio)": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 30-40 s",
-      "ultimo_logrado": "25 s @ 45 kg en máquina de poleas (2026-08-26)"
+      "ultimo_logrado": "25 s @ 45 kg (2026-09-09) — igual que el 26/08, estancada por debajo del objetivo de 30-40 s"
     },
     "Dominada australiana en el rack (gimnasio)": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 10-15 reps",
-      "ultimo_logrado": "3 series x 10 reps (2026-08-26, rack libre)"
+      "ultimo_logrado": "3 series x 10 reps con el cuerpo más horizontal (2026-09-09) — progresión por palanca"
     },
     "Remo sentado en máquina (gimnasio, sustituto)": {
       "modo": "sustituto",
@@ -73,7 +74,8 @@
     "Dominada asistida (gimnasio)": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 3-5 reps",
-      "ultimo_logrado": "3 series: 5, 4, 3 reps con asistencia −4,5 kg (2026-08-26)",
+      "ultimo_logrado": "1ª serie LIBRE 4 reps; 2ª con −4,5 kg 4 reps; 3ª con −9 kg 3 reps (2026-09-09)",
+      "hito": "Primeras dominadas sin asistencia registradas.",
       "nota": "Limita el agarre ancho de la máquina, no la fuerza de tracción."
     },
     "Curl con barra W (bíceps, gimnasio)": {
@@ -95,18 +97,18 @@
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-09-07",
+  "ultima_fecha": "2026-09-09",
   "ultima_sesion_completa": {
-    "fecha": "2026-09-07",
-    "dia": "casa (lunes)",
-    "nota": "Vuelta tras una semana sin sesiones registradas (última: 31/08). Récord en flexiones (39), pike (37 s), sentadilla en pared (80 s) y zancada (60 s). Lo más relevante: en sentadilla y zancada las dos series salieron iguales, sin caída — señal de que los descansos añadidos el 31/08 están funcionando. En el dead hang el perfil también se aplana."
+    "fecha": "2026-09-09",
+    "dia": "miercoles_gimnasio",
+    "nota": "Sesión de hitos: fondos en paralelas LIBRES (10/10/5, sin nada de asistencia) y primera dominada sin asistencia (4 reps). Australiana con el cuerpo más horizontal a mismas reps. La sentadilla isométrica sigue clavada en 25 s @ 45 kg desde el 26/08, es lo único estancado. (El usuario la fechó como 10/09 por error; fue miércoles 9.)"
   },
   "temas_abiertos": [
-    "CONFIRMAR: no hay registro de sesiones entre el 31/08 y el 07/09 (faltarían miércoles 2 y viernes 4). Preguntar al usuario si fueron descanso o si están sin apuntar.",
+    "Fondos en paralelas: ya se hacen libres y llegan a 10 reps, por encima del objetivo (6-10). Replantear el rango o añadir dificultad.",
+    "Dominadas: primera serie libre lograda (4 reps). Decidir con el usuario si se pasa a un esquema libre + asistidas de refuerzo, en vez de tratarlas como un solo ejercicio asistido.",
+    "Sentadilla isométrica de gimnasio: clavada en 25 s @ 45 kg desde el 26/08, por debajo del objetivo de 30-40 s. Valorar bajar carga para poder subir tiempo.",
     "Dead hang: el pico baja de 30 a 20 s pero la 2ª serie sube de 15 a 20 s. Saber si descansó los 2 min pautados, para atribuirlo bien.",
     "Remo con mancuerna: subir ya a 11,5 kg. Lleva tres sesiones haciendo 15 reps.",
-    "Fondos en paralelas: quitar la asistencia en el próximo día de gimnasio. Confirmar de paso la lectura de asistencia (salto de 45 kg a 4,5 kg entre el 19 y el 26/08).",
-    "El día de gimnasio no se registra desde el 26/08. Si se han hecho miércoles, faltan por apuntar.",
     "Lado izquierdo más débil (agarre y zancada). Solo vigilar.",
     "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza."
   ],
@@ -125,5 +127,11 @@
     "hasta": "2026-08-28",
     "resultado": "Cerrada. Tres sesiones seguidas sin dolor (26, 28 y 31/08). Los ejercicios sustitutos (abducción en vez de puente, dead bug en vez de plancha+bird dog) se quedan como definitivos.",
     "pendiente": "Recuperar volumen subiendo tiempos, no series."
-  }
+  },
+  "ausencias": [
+    {
+      "fechas": "2026-09-02 y 2026-09-04",
+      "motivo": "Agenda. Sin entrenar. Una semana completa entre el 31/08 y el 07/09."
+    }
+  ]
 }
