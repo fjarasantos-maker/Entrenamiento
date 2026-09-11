@@ -11,32 +11,39 @@
       "F2": "viernes"
     },
     "fase_actual": "Dead hang a dos manos",
-    "objetivo_inicial_s": 15,
+    "objetivo_inicial_s": 31,
     "incremento_s_por_sesion": 1,
     "primera_sesion": "2026-08-28",
-    "criterio_avance": "2 series de 40 s limpias, dos sesiones seguidas",
+    "criterio_avance": "Serie máxima de 45 s",
     "siguiente_fase_prevista": "A decidir con el usuario: hang a una mano asistido, o reintroducir la negativa en casa",
-    "seguimiento": "Progresion_calistenia.xlsx",
+    "seguimiento": "Progresion_calistenia.xlsx, hoja 'Ciclo 2' (la hoja 'Ciclo 1 (histórico)' guarda el esquema anterior)",
     "historial_cambios": "2026-08-24: el foco pasa de la negativa de dominada al dead hang. El usuario identifica el agarre como su factor limitante y prefiere hacer las dominadas/negativas solo en el gimnasio.",
     "ultima_sesion_registrada": {
-      "sesion": 3,
-      "fecha": "2026-09-07",
-      "objetivo_s": 17,
-      "resultado": "3 series: 20 / 20 / 13 s. 2 de 3 cumplen objetivo.",
-      "lectura": "Perfil mucho más plano que el 31/08 (30/15/10). La 2ª serie sube de 15 a 20 s: la repetibilidad mejora, que era justo el problema. A cambio baja el pico de 30 a 20 s. Total casi idéntico (53 vs 55 s). Pendiente saber si descansó más entre series o si influye la semana sin entrenar.",
+      "sesion": 4,
+      "fecha": "2026-09-11",
+      "objetivo_s": 18,
+      "resultado": "3 series: 30 / 17 / 14 s = 61 s totales. Solo 1 serie pasa el objetivo.",
+      "lectura": "Mejor total del ciclo (47 -> 55 -> 53 -> 61 s) y mejor 3ª serie hasta ahora. Pero el objetivo del ciclo sube 1 s por sesión y el nº de series que lo cumplen oscila (2, 1, 2, 1). El patrón real del usuario es una serie fuerte (~30 s) y caída después; la métrica 'series que cumplen objetivo' no captura bien lo que está mejorando.",
+      "propuesta": "Cambiar la métrica del ciclo a segundos totales acumulados en la sesión, que es lo que sube de forma consistente. Pendiente de aprobación del usuario.",
       "dolor_hombro": false
-    }
+    },
+    "esquema": "1 serie máxima en fresco (la que se mide) + 2 series de respaldo a 15 s. Cambiado 2026-09-11.",
+    "primera_sesion_ciclo2": "2026-09-14",
+    "regla_no_progresion": "Si la serie máxima no alcanza el objetivo dos sesiones seguidas, se congela el objetivo hasta superarlo.",
+    "record_actual_s": 30,
+    "historial_ciclo1": "Mejor serie por sesión: 30, 30, 20, 30 s (28/08, 31/08, 07/09, 11/09). Totales: 57, 55, 53, 61 s."
   },
   "estado_principales": {
     "Flexiones": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 8-12 reps",
-      "ultimo_logrado": "3 series x 13 reps = 39 total (2026-09-07) — récord, 4ª subida consecutiva"
+      "ultimo_logrado": "3 series lentas: 10, 9, 2 reps (2026-09-11). Antes, en tempo normal: 39 reps (07/09). No comparables.",
+      "nota": "Desde el 11/09 el usuario las hace con tempo lento buscando tensión. Anotar siempre el tempo para no comparar peras con manzanas."
     },
     "Sentadilla en pared": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 30-45 s",
-      "ultimo_logrado": "40 s + 40 s = 80 s (2026-09-07) — récord amplio; series iguales, sin caída"
+      "ultimo_logrado": "2 series x 45 s = 90 s (2026-09-11) — récord"
     },
     "Plancha frontal": {
       "modo": "mantenimiento",
@@ -47,7 +54,7 @@
     "Dead bug isométrico": {
       "modo": "mantenimiento",
       "objetivo": "1 serie x 20-30 s",
-      "ultimo_logrado": "2 series x 25 s (2026-09-09, gimnasio); 30 s (2026-09-07, casa)"
+      "ultimo_logrado": "30 s (2026-09-11) — iguala récord"
     },
     "Fondos en paralelas (gimnasio)": {
       "modo": "mantenimiento",
@@ -92,23 +99,24 @@
   "cargas_actuales": {
     "Remo con mancuerna a 1 mano": {
       "peso_por_mancuerna_kg": "9,5 (8 kg en discos — 2 kg + 2 kg en cada extremo — más el mango, ~1,5 kg sin pesar)",
-      "ultimo_logrado": "15 reps @ 9,5 kg (2026-09-07) — tercera sesión seguida con 15 reps",
-      "siguiente_paso": "Subir a 11,5 kg (5 kg por lado) en la próxima sesión de casa. Ya se cumplió el criterio: 15 reps limpias repetidas.",
+      "ultimo_logrado": "10 reps/lado @ 9,5 kg con tempo lento (2026-09-11). Brazo izquierdo al límite en la última rep.",
+      "siguiente_paso": "El usuario opta por progresar con tempo lento manteniendo 9,5 kg, en vez de subir a 11,5 kg. Se mantiene así mientras siga costándole; revisar si vuelve a pasar de 12 reps limpias.",
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-09-09",
+  "ultima_fecha": "2026-09-11",
   "ultima_sesion_completa": {
-    "fecha": "2026-09-09",
-    "dia": "miercoles_gimnasio",
-    "nota": "Sesión de hitos: fondos en paralelas LIBRES (10/10/5, sin nada de asistencia) y primera dominada sin asistencia (4 reps). Australiana con el cuerpo más horizontal a mismas reps. La sentadilla isométrica sigue clavada en 25 s @ 45 kg desde el 26/08, es lo único estancado. (El usuario la fechó como 10/09 por error; fue miércoles 9.)"
+    "fecha": "2026-09-11",
+    "dia": "casa (viernes)",
+    "nota": "Cambio de método: el usuario pasa a tempo lento en flexiones y remo, buscando tensión en vez de repeticiones. Récord en sentadilla en pared (90 s) y abducción (25 s/lado). Dead hang: mejor total del ciclo (61 s). Pike muy inconsistente por problemas para colocarse en posición."
   },
   "temas_abiertos": [
+    "Serie máxima del dead hang clavada en 30 s en tres de las cuatro sesiones del ciclo 1. El ciclo 2 arranca con objetivo 31 s para romper ese techo.",
+    "Pike push-up muy inconsistente (2\", 9\", 14\" el 11/09). El usuario dice que pierde fuerza al colocarse. Probar una entrada fija (pies sobre un step, o apoyo en pared) para eliminar esa variable.",
+    "Nuevo método: repeticiones lentas en flexiones y remo desde el 11/09. Anotar siempre el tempo; los totales no son comparables con las sesiones previas.",
     "Fondos en paralelas: ya se hacen libres y llegan a 10 reps, por encima del objetivo (6-10). Replantear el rango o añadir dificultad.",
     "Dominadas: primera serie libre lograda (4 reps). Decidir con el usuario si se pasa a un esquema libre + asistidas de refuerzo, en vez de tratarlas como un solo ejercicio asistido.",
     "Sentadilla isométrica de gimnasio: clavada en 25 s @ 45 kg desde el 26/08, por debajo del objetivo de 30-40 s. Valorar bajar carga para poder subir tiempo.",
-    "Dead hang: el pico baja de 30 a 20 s pero la 2ª serie sube de 15 a 20 s. Saber si descansó los 2 min pautados, para atribuirlo bien.",
-    "Remo con mancuerna: subir ya a 11,5 kg. Lleva tres sesiones haciendo 15 reps.",
     "Lado izquierdo más débil (agarre y zancada). Solo vigilar.",
     "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza."
   ],
@@ -133,5 +141,6 @@
       "fechas": "2026-09-02 y 2026-09-04",
       "motivo": "Agenda. Sin entrenar. Una semana completa entre el 31/08 y el 07/09."
     }
-  ]
+  ],
+  "orden_sesion_casa": "El usuario alterna empuje/tracción como primer grupo de cada sesión, para que ninguno llegue siempre fatigado (confirmado 2026-09-11)."
 }

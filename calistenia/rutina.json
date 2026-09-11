@@ -18,7 +18,8 @@
     "flexiones_s": 90,
     "isometricos_pierna_s": 90,
     "otros_s": 60,
-    "regla": "Si la siguiente serie sale claramente peor que la anterior, faltó descanso, no capacidad. En pierna, los 90 s aplican también entre ejercicios distintos, no solo entre series."
+    "regla": "Si la siguiente serie sale claramente peor que la anterior, faltó descanso, no capacidad. En pierna, los 90 s aplican también entre ejercicios distintos, no solo entre series.",
+    "orden_sesion_casa": "El usuario alterna qué grupo abre la sesión, empuje o tracción, para que ninguno llegue siempre fatigado. La lista de ejercicios es por grupo, no por orden de ejecución."
   },
   "progresion": {
     "ejercicios_con_repeticiones": "Subir repeticiones o acercarse a la dominada estricta antes de añadir peso. El número de series se mantiene fijo.",
@@ -37,7 +38,7 @@
       "ejercicios": [
         {"grupo": "empuje", "orden": 1, "nombre": "Flexiones", "series": 2, "objetivo": "8-10 reps"},
         {"grupo": "empuje", "orden": 2, "nombre": "Pike push-up isométrico", "series": 1, "objetivo": "10-15 s"},
-        {"grupo": "traccion", "orden": 1, "nombre": "Dead hang (foco de mejora — agarre)", "series": 2, "objetivo": "15-25 s", "nota": "2026-08-24: en casa se queda solo el dead hang. Las negativas pasan al día de gimnasio. El agarre es el factor limitante del usuario, así que el dead hang es el foco de mejora con seguimiento en Progresion_calistenia.xlsx."},
+        {"grupo": "traccion", "orden": 1, "nombre": "Dead hang (foco de mejora — agarre)", "series": "1 máxima + 2 de respaldo", "objetivo": "serie máxima a tope en fresco + 2 x 15 s cómodas", "nota": "Esquema cambiado 2026-09-11: solo la serie máxima se mide y se progresa; las de respaldo suman volumen sin ir al límite. Causa del cambio: caída sistemática de la 2ª y 3ª serie por fatiga local del antebrazo. Seguimiento en la hoja Ciclo 2 de Progresion_calistenia.xlsx."},
         {"grupo": "traccion", "orden": 2, "nombre": "Remo con mancuerna a 1 mano", "series": 1, "objetivo": "10-12 reps/lado", "nota_carga": "ver material_casa.md"},
         {"grupo": "piernas", "orden": 1, "nombre": "Sentadilla en pared", "series": 2, "objetivo": "25-30 s"},
         {"grupo": "piernas", "orden": 2, "nombre": "Abducción isométrica con pierna estirada (tumbado de lado)", "series": 1, "objetivo": "20-30 s/lado", "nota": "Sustituye al puente de glúteo (dolor lumbar 22 y 24/08) y, desde 2026-08-28, a la almeja/clamshell, que resultó demasiado fácil (60 s por lado sin esfuerzo). Pierna de arriba recta, alineada con el tronco, talón ligeramente atrás. Si se queda corta, añadir un disco de 2 kg sobre el muslo antes que alargar el tiempo."},
@@ -67,9 +68,11 @@
       "grupo": "traccion",
       "lugar": "casa",
       "dias": {"F1": "lunes", "F2": "viernes"},
-      "seguimiento": "Progresion_calistenia.xlsx",
-      "criterio_avance": "2 series de 40 s limpias, dos sesiones seguidas",
-      "regla_no_progresion": "Si el resultado empeora dos sesiones seguidas (menos tiempo al mismo objetivo, o dolor de hombro), no se sube el objetivo esa semana."
+      "esquema": "1 serie máxima en fresco (la que se mide y se progresa) + 2 series de respaldo a 15 s. Cambiado 2026-09-11.",
+      "seguimiento": "Progresion_calistenia.xlsx, hoja 'Ciclo 2'. La hoja 'Ciclo 1 (histórico)' conserva el esquema anterior.",
+      "objetivo_inicial_ciclo2_s": 31,
+      "criterio_avance": "Serie máxima de 45 s",
+      "regla_no_progresion": "Si la serie máxima no alcanza el objetivo dos sesiones seguidas, se congela el objetivo hasta superarlo."
     },
     "principales_en_mantenimiento": [
       "Flexiones", "Sentadilla en pared", "Dead bug isométrico",

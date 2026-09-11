@@ -31,7 +31,7 @@ Orden dentro de cada grupo: el primer ejercicio lleva más series que el último
 |---|---|---|---|
 | Empuje 1 | Flexiones | 2 | 8-10 reps |
 | Empuje 2 | Pike push-up isométrico | 1 | 10-15 s |
-| Tracción 1 | Dead hang (foco de mejora — agarre) | 2 | 15-25 s |
+| Tracción 1 | Dead hang (foco de mejora — agarre) | 1 máxima + 2 respaldo | Máxima a tope en fresco + 2 x 15 s cómodas |
 | Tracción 2 | Remo con mancuerna a 1 mano | 1 | 10-12 reps/lado — ver carga en `material_casa.md` |
 | Piernas 1 | Sentadilla en pared | 2 | 25-30 s |
 | Piernas 2 | Abducción isométrica con pierna estirada (tumbado de lado) | 1 | 20-30 s/lado |
@@ -90,13 +90,26 @@ Ver `material_casa.md` para el inventario de mancuernas/discos y la referencia d
 
 Igual que en el método Bilbo, solo **un** ejercicio lleva progresión formal a la vez — el foco de mejora — mientras el resto se mantiene en el objetivo fijo definido arriba, ajustando solo por adaptación.
 
+### Orden de la sesión de casa
+
+El usuario **alterna qué grupo abre la sesión, empuje o tracción**, de una sesión a otra, para que ninguno de los dos llegue siempre fatigado. La tabla de arriba lista los ejercicios por grupo, no por orden de ejecución. En las sesiones en las que abre tracción, el dead hang es el primer ejercicio del día.
+
+### Esquema del dead hang — cambiado el 11/09/2026
+
+Antes eran 2 series buscando el mismo objetivo de tiempo, y el resultado siempre era el mismo patrón: una serie fuerte (~30 s) y caída fuerte en las siguientes. La causa es fatiga local del antebrazo (la contracción mantenida restringe el flujo sanguíneo y la recuperación es lenta), no falta de capacidad. Nuevo esquema:
+
+- **1 serie máxima**, a tope, con los antebrazos frescos. **Es la única que se mide y la que marca la progresión.**
+- **2 series de respaldo** a 15 s, cómodas, sin acercarse al límite. Solo suman volumen de agarre; no se registran como intento.
+- Descanso de 2 min entre series, como ya estaba pautado.
+
 ### Foco de mejora
 
 El foco actual (desde 24/08/2026) es el **dead hang**, en casa, lunes F1 / viernes F2. El usuario identifica el agarre como su factor limitante, así que es lo que se progresa formalmente. Las negativas y dominadas completas se hacen solo el miércoles en el gimnasio, en modo mantenimiento. Se registra en `Progresion_calistenia.xlsx`, hoja `Ciclo`:
 
-- Celdas amarillas = entrada manual: Fecha, Series logradas a ese tiempo objetivo, Notas (incluida la sensación de cada mano, que van descompensadas).
-- El resto son fórmulas — no se sobrescriben con valores fijos: el Objetivo (s) de la sesión 1 es el valor inicial configurado; cada sesión siguiente = anterior + incremento (s). Tiempo total bajo tensión = Objetivo × Series. Marca estimada = Objetivo × (1 + 0,03 × Series).
-- Cuando se cumpla el criterio de avance (ver `config.json` → `foco_mejora.criterio_avance`: 2 series de 40 s limpias, dos sesiones seguidas), se avisa al usuario y se decide con él la siguiente fase (por ejemplo hang a una mano asistida, o reintroducir la negativa en casa). El foco solo cambia de fase o de ejercicio cuando el usuario lo confirma, no automáticamente.
+- Desde el 14/09/2026 se registra en la hoja `Ciclo 2` del xlsx. Celdas amarillas = entrada manual: Fecha, **serie máxima (s)**, segundos totales de respaldo, y Notas (incluida la sensación de cada mano, que van descompensadas). La hoja `Ciclo 1 (histórico)` conserva el esquema anterior.
+- El resto son fórmulas — no se sobrescriben: el Objetivo de la sesión 1 es el valor inicial configurado (31 s, justo por encima del récord actual de 30 s); cada sesión siguiente = anterior + 1 s. El total de sesión = serie máxima + respaldo.
+- Criterio de avance de fase: **serie máxima de 45 s**. Entonces se decide con el usuario la siguiente fase (hang a una mano asistido, o reintroducir la negativa en casa). El foco solo cambia cuando el usuario lo confirma.
+- Regla de no progresión: si la serie máxima no alcanza el objetivo **dos sesiones seguidas**, se congela el objetivo hasta superarlo, en vez de seguir subiéndolo 1 s por sesión.
 - Si en dos sesiones seguidas el resultado empeora claramente respecto a la sesión anterior (menos repeticiones al mismo objetivo, o dolor que rompe la técnica), no se sube el objetivo esa semana — se avisa y se mantiene el valor.
 
 ### Principales en mantenimiento
