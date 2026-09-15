@@ -19,12 +19,14 @@
     "seguimiento": "Progresion_calistenia.xlsx, hoja 'Ciclo 2' (la hoja 'Ciclo 1 (histórico)' guarda el esquema anterior)",
     "historial_cambios": "2026-08-24: el foco pasa de la negativa de dominada al dead hang. El usuario identifica el agarre como su factor limitante y prefiere hacer las dominadas/negativas solo en el gimnasio.",
     "ultima_sesion_registrada": {
-      "sesion": 4,
-      "fecha": "2026-09-11",
-      "objetivo_s": 18,
-      "resultado": "3 series: 30 / 17 / 14 s = 61 s totales. Solo 1 serie pasa el objetivo.",
-      "lectura": "Mejor total del ciclo (47 -> 55 -> 53 -> 61 s) y mejor 3ª serie hasta ahora. Pero el objetivo del ciclo sube 1 s por sesión y el nº de series que lo cumplen oscila (2, 1, 2, 1). El patrón real del usuario es una serie fuerte (~30 s) y caída después; la métrica 'series que cumplen objetivo' no captura bien lo que está mejorando.",
-      "propuesta": "Cambiar la métrica del ciclo a segundos totales acumulados en la sesión, que es lo que sube de forma consistente. Pendiente de aprobación del usuario.",
+      "ciclo": 2,
+      "sesion": 1,
+      "fecha": "2026-09-14",
+      "objetivo_s": 31,
+      "serie_maxima_s": 29,
+      "respaldo_s": "15 + 10",
+      "total_s": 54,
+      "lectura": "Primera sesión del esquema nuevo. 29 s, por debajo del objetivo (31 s) y del récord (30 s). Dentro del margen normal de variación: el usuario lleva 30, 30, 20, 30, 29 en sus mejores series. El techo de 30 s sigue intacto.",
       "dolor_hombro": false
     },
     "esquema": "1 serie máxima en fresco (la que se mide) + 2 series de respaldo a 15 s. Cambiado 2026-09-11.",
@@ -37,13 +39,13 @@
     "Flexiones": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 8-12 reps",
-      "ultimo_logrado": "3 series lentas: 10, 9, 2 reps (2026-09-11). Antes, en tempo normal: 39 reps (07/09). No comparables.",
+      "ultimo_logrado": "3 series lentas: 10, 9, 4 reps = 23 (2026-09-14). Mejora la 3ª serie respecto al 11/09.",
       "nota": "Desde el 11/09 el usuario las hace con tempo lento buscando tensión. Anotar siempre el tempo para no comparar peras con manzanas."
     },
     "Sentadilla en pared": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 30-45 s",
-      "ultimo_logrado": "2 series x 45 s = 90 s (2026-09-11) — récord"
+      "ultimo_logrado": "50 s + 35 s = 85 s (2026-09-14) — récord en serie única (antes 45 s), pero vuelve la caída en la 2ª"
     },
     "Plancha frontal": {
       "modo": "mantenimiento",
@@ -54,7 +56,7 @@
     "Dead bug isométrico": {
       "modo": "mantenimiento",
       "objetivo": "1 serie x 20-30 s",
-      "ultimo_logrado": "30 s (2026-09-11) — iguala récord"
+      "ultimo_logrado": "35 s (2026-09-14) — récord"
     },
     "Fondos en paralelas (gimnasio)": {
       "modo": "mantenimiento",
@@ -104,21 +106,22 @@
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-09-11",
+  "ultima_fecha": "2026-09-14",
   "ultima_sesion_completa": {
-    "fecha": "2026-09-11",
-    "dia": "casa (viernes)",
-    "nota": "Cambio de método: el usuario pasa a tempo lento en flexiones y remo, buscando tensión en vez de repeticiones. Récord en sentadilla en pared (90 s) y abducción (25 s/lado). Dead hang: mejor total del ciclo (61 s). Pike muy inconsistente por problemas para colocarse en posición."
+    "fecha": "2026-09-14",
+    "dia": "casa (lunes)",
+    "nota": "Primera sesión del Ciclo 2 del dead hang: 29 s de serie máxima, sin llegar al objetivo de 31 s. Récords en pike (18 s en serie única), sentadilla en pared (50 s), zancada (35 s/lado), dead bug (35 s) y abducción derecha (35 s). Aparece una asimetría clara en la abducción: 35 s derecha frente a 25 s izquierda."
   },
   "temas_abiertos": [
     "Serie máxima del dead hang clavada en 30 s en tres de las cuatro sesiones del ciclo 1. El ciclo 2 arranca con objetivo 31 s para romper ese techo.",
+    "Asimetría izquierda-derecha ya cuantificada: abducción 35 s derecha vs 25 s izquierda (14/09), más el agarre y la zancada. Si se mantiene, valorar empezar siempre por el lado izquierdo e igualar el tiempo del derecho al que aguante el izquierdo.",
     "Pike push-up muy inconsistente (2\", 9\", 14\" el 11/09). El usuario dice que pierde fuerza al colocarse. Probar una entrada fija (pies sobre un step, o apoyo en pared) para eliminar esa variable.",
     "Nuevo método: repeticiones lentas en flexiones y remo desde el 11/09. Anotar siempre el tempo; los totales no son comparables con las sesiones previas.",
     "Fondos en paralelas: ya se hacen libres y llegan a 10 reps, por encima del objetivo (6-10). Replantear el rango o añadir dificultad.",
     "Dominadas: primera serie libre lograda (4 reps). Decidir con el usuario si se pasa a un esquema libre + asistidas de refuerzo, en vez de tratarlas como un solo ejercicio asistido.",
     "Sentadilla isométrica de gimnasio: clavada en 25 s @ 45 kg desde el 26/08, por debajo del objetivo de 30-40 s. Valorar bajar carga para poder subir tiempo.",
-    "Lado izquierdo más débil (agarre y zancada). Solo vigilar.",
-    "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza."
+    "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza.",
+    "El pike sigue con caída muy marcada tras la 1ª serie (18\", 9\", 6\" el 14/09), igual que el dead hang. Valorar aplicarle el mismo esquema: una serie máxima + respaldo a tiempo fijo."
   ],
   "calendario_fijo": {
     "desde": "2026-08-31",
