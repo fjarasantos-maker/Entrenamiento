@@ -3,13 +3,13 @@
   "tipo": "calistenia_isometricos_casa",
   "motivo_cambio": "Sustituye el método Bilbo (pesos en gimnasio) porque el gimnasio está saturado y esperar la banca hacía perder mucho tiempo. Archivo anterior conservado en archivo_bilbo/.",
   "restricciones_obligatorias": [
-    "Piernas: solo isométricos. Nada de repetición ni explosividad en pierna — descartado explícitamente por condición articular.",
+    "Piernas: solo isométricos, con una excepción desde 2026-09-16: la prensa del miércoles se hace en Slow Fit dinámico (tempo 10/10, rango sin dolor, sin bloquear rodillas). Decisión del usuario. Nada de explosividad en pierna.",
     "Series fijas por ejercicio, no rangos. Dentro de cada grupo, el primer ejercicio lleva más series que el último.",
     "Ningún ejercicio va al fallo. Margen de 2-3 repeticiones en reserva, o cortar el isométrico antes de perder la técnica.",
     "Semana de descarga desde 2026-08-24: dos sesiones seguidas con dolor lumbar (22 y 24/08) más dolor punzante de hombro izquierdo en dead hang (24/08). El usuario lo atribuye a sobrecarga acumulada. En casa se queda solo el dead hang (las negativas pasan al gimnasio), se sustituye puente de glúteo por almeja isométrica, y plancha+bird dog por dead bug en ambas sesiones. Volumen y tiempos bajados. No subir a 3 series durante la descarga.",
     "Si el dolor lumbar o de hombro reaparece con este volumen reducido y los ejercicios sustituidos, deja de ser atribuible a carga: recomendar valoración por fisioterapeuta antes de seguir progresando.",
     "Volumen semanal bajo por grupo: ~8 series empuje, ~9 tracción, ~10 piernas, ~6 core, sumando las 3 sesiones.",
-    "Miércoles es el único día de gimnasio, reservado a lo que exige barra baja o paralelas.",
+    "Miércoles es el único día de gimnasio. Desde 2026-09-16 se dedica a una sesión Slow Fit en máquinas guiadas (1 serie por máquina, tempo 10/10).",
     "Si aparece dolor agudo, creciente o que altera la técnica, se interrumpe el ejercicio sin compensar con más trabajo."
   ],
   "descansos_entre_series": {
@@ -28,63 +28,285 @@
   },
   "calendario": {
     "_nota": "Fijo desde 2026-08-31: lunes, miércoles y viernes. Siempre un día de descanso entre sesiones y dos seguidos el fin de semana. Decisión del usuario tras acumular 4 sesiones con un solo día de descanso y llegar muy cansado.",
-    "lunes": {"lugar": "casa", "sesion": "full_body_casa"},
-    "miercoles": {"lugar": "gimnasio", "sesion": "full_body_gimnasio"},
-    "viernes": {"lugar": "casa", "sesion": "full_body_casa"}
+    "lunes": {
+      "lugar": "casa",
+      "sesion": "full_body_casa"
+    },
+    "miercoles": {
+      "lugar": "gimnasio",
+      "sesion": "slow_fit_gimnasio"
+    },
+    "viernes": {
+      "lugar": "casa",
+      "sesion": "full_body_casa"
+    }
   },
   "sesiones": {
     "full_body_casa": {
-      "dias": ["lunes", "viernes"],
+      "dias": [
+        "lunes",
+        "viernes"
+      ],
       "ejercicios": [
-        {"grupo": "empuje", "orden": 1, "nombre": "Flexiones", "series": 2, "objetivo": "8-10 reps"},
-        {"grupo": "empuje", "orden": 2, "nombre": "Pike push-up isométrico", "series": 1, "objetivo": "10-15 s"},
-        {"grupo": "traccion", "orden": 1, "nombre": "Dead hang (foco de mejora — agarre)", "series": "1 máxima + 2 de respaldo", "objetivo": "serie máxima a tope en fresco + 2 x 15 s cómodas", "nota": "Esquema cambiado 2026-09-11: solo la serie máxima se mide y se progresa; las de respaldo suman volumen sin ir al límite. Causa del cambio: caída sistemática de la 2ª y 3ª serie por fatiga local del antebrazo. Seguimiento en la hoja Ciclo 2 de Progresion_calistenia.xlsx."},
-        {"grupo": "traccion", "orden": 2, "nombre": "Remo con mancuerna a 1 mano", "series": 1, "objetivo": "10-12 reps/lado", "nota_carga": "ver material_casa.md"},
-        {"grupo": "piernas", "orden": 1, "nombre": "Sentadilla en pared", "series": 2, "objetivo": "25-30 s"},
-        {"grupo": "piernas", "orden": 2, "nombre": "Abducción isométrica con pierna estirada (tumbado de lado)", "series": 1, "objetivo": "20-30 s/lado", "nota": "Sustituye al puente de glúteo (dolor lumbar 22 y 24/08) y, desde 2026-08-28, a la almeja/clamshell, que resultó demasiado fácil (60 s por lado sin esfuerzo). Pierna de arriba recta, alineada con el tronco, talón ligeramente atrás. Si se queda corta, añadir un disco de 2 kg sobre el muslo antes que alargar el tiempo."},
-        {"grupo": "piernas", "orden": 3, "nombre": "Zancada isométrica (apoyo en pared)", "series": 1, "objetivo": "15-20 s/lado"},
-        {"grupo": "core", "orden": 1, "nombre": "Dead bug isométrico (lumbar pegada al suelo)", "series": 1, "objetivo": "20-30 s", "nota": "Sustituye a plancha frontal y bird dog (ambos impedidos por dolor lumbar el 24/08)."}
+        {
+          "grupo": "empuje",
+          "orden": 1,
+          "nombre": "Flexiones",
+          "series": 2,
+          "objetivo": "8-10 reps"
+        },
+        {
+          "grupo": "empuje",
+          "orden": 2,
+          "nombre": "Pike push-up isométrico",
+          "series": 1,
+          "objetivo": "10-15 s"
+        },
+        {
+          "grupo": "traccion",
+          "orden": 1,
+          "nombre": "Dead hang (foco de mejora — agarre)",
+          "series": "1 máxima + 2 de respaldo",
+          "objetivo": "serie máxima a tope en fresco + 2 x 15 s cómodas",
+          "nota": "Esquema cambiado 2026-09-11: solo la serie máxima se mide y se progresa; las de respaldo suman volumen sin ir al límite. Causa del cambio: caída sistemática de la 2ª y 3ª serie por fatiga local del antebrazo. Seguimiento en la hoja Ciclo 2 de Progresion_calistenia.xlsx."
+        },
+        {
+          "grupo": "traccion",
+          "orden": 2,
+          "nombre": "Remo con mancuerna a 1 mano",
+          "series": 1,
+          "objetivo": "10-12 reps/lado",
+          "nota_carga": "ver material_casa.md"
+        },
+        {
+          "grupo": "piernas",
+          "orden": 1,
+          "nombre": "Sentadilla en pared",
+          "series": 2,
+          "objetivo": "25-30 s"
+        },
+        {
+          "grupo": "piernas",
+          "orden": 2,
+          "nombre": "Abducción isométrica con pierna estirada (tumbado de lado)",
+          "series": 1,
+          "objetivo": "20-30 s/lado",
+          "nota": "Sustituye al puente de glúteo (dolor lumbar 22 y 24/08) y, desde 2026-08-28, a la almeja/clamshell, que resultó demasiado fácil (60 s por lado sin esfuerzo). Pierna de arriba recta, alineada con el tronco, talón ligeramente atrás. Si se queda corta, añadir un disco de 2 kg sobre el muslo antes que alargar el tiempo."
+        },
+        {
+          "grupo": "piernas",
+          "orden": 3,
+          "nombre": "Zancada isométrica (apoyo en pared)",
+          "series": 1,
+          "objetivo": "15-20 s/lado"
+        },
+        {
+          "grupo": "core",
+          "orden": 1,
+          "nombre": "Dead bug isométrico (lumbar pegada al suelo)",
+          "series": 1,
+          "objetivo": "20-30 s",
+          "nota": "Sustituye a plancha frontal y bird dog (ambos impedidos por dolor lumbar el 24/08)."
+        }
       ]
     },
-    "full_body_gimnasio": {
-      "dias": ["miercoles"],
+    "slow_fit_gimnasio": {
+      "dias": [
+        "miercoles"
+      ],
+      "desde": "2026-09-16",
+      "protocolo": {
+        "series_por_maquina": 1,
+        "tempo": "10 s subida / 10 s bajada, continuo, sin bloquear ni apoyar el peso",
+        "tut_objetivo_s": [
+          90,
+          120
+        ],
+        "fin_de_serie": "Cuando ya no se puede mantener el tempo con técnica limpia. No se busca el fallo muscular (restricción obligatoria).",
+        "descanso_entre_maquinas_s": [
+          60,
+          90
+        ],
+        "duracion_total_min": [
+          20,
+          25
+        ],
+        "carga_inicial": "Primera sesión de calibración: peso para ~12-15 reps normales. Remo sentado ~30-35 kg; prensa isométrica ~30 kg.",
+        "ajuste_carga": {
+          "tut_120_o_mas": "subir una placa la sesión siguiente",
+          "tut_90_119": "mantener",
+          "tut_menos_90": "mantener la carga y buscar más tiempo (decisión del usuario 2026-09-16)"
+        },
+        "registrar": "Carga, TUT, repeticiones completas y posición del asiento de cada máquina."
+      },
       "ejercicios": [
-        {"grupo": "traccion", "orden": 1, "nombre": "Dominada australiana en el rack (si está libre)", "series": 2, "objetivo": "10-15 reps", "nota": "Preferente desde 2026-08-26: el rack sí estuvo libre. Si está ocupado, se usa el remo sentado como sustituto."},
-        {"grupo": "traccion", "orden": "sustituto", "nombre": "Remo sentado en máquina (agarre divergente)", "series": 2, "objetivo": "8-12 reps", "nota": "Sustituto de la dominada australiana cuando el rack está ocupado."},
-        {"grupo": "traccion", "orden": 2, "nombre": "Dominada asistida / negativas (barra alta)", "series": 2, "objetivo": "3-5 reps", "nota": "Único día donde se hacen dominadas (2026-08-24). En casa solo dead hang. Factor limitante: el agarre de la máquina es más ancho que la barra de casa."},
-        {"grupo": "empuje", "orden": 1, "nombre": "Fondos en paralelas (no bajar de 90° de codo)", "series": 2, "objetivo": "6-10 reps", "nota": "2026-08-26: con −4,5 kg de asistencia resultó fácil. Siguiente paso: quitar la asistencia."},
-        {"grupo": "piernas", "orden": 1, "nombre": "Sentadilla isométrica (máquina de poleas)", "series": 2, "objetivo": "30-40 s"},
-        {"grupo": "biceps", "orden": 1, "nombre": "Curl con barra W", "series": 3, "objetivo": "10 reps", "nota": "Añadido por el usuario 2026-08-26. Solo el día de gimnasio."},
-        {"grupo": "triceps", "orden": 1, "nombre": "Press francés con barra W", "series": 3, "objetivo": "10 reps", "nota": "Añadido por el usuario 2026-08-26. Solo el día de gimnasio."},
-        {"grupo": "piernas", "orden": "sustituto", "nombre": "Sentadilla en pared (si el aparato está ocupado)", "series": 2, "objetivo": "30-45 s", "nota": "sustituto, no se suma como serie extra"},
-        {"grupo": "core", "orden": 1, "nombre": "Dead bug isométrico (lumbar pegada al suelo)", "series": 1, "objetivo": "20-30 s", "nota": "Sustituye a plancha frontal y bird dog también en el gimnasio (2026-08-24), por coherencia con la descarga."}
+        {
+          "grupo": "piernas",
+          "orden": 1,
+          "nombre": "Prensa (Slow Fit)",
+          "series": 1,
+          "objetivo": "90-120 s tempo 10/10",
+          "nota": "Dinámica desde 2026-09-23 (el 16/09 fue isométrica, 45 s). Rango sin dolor, sin bloquear rodillas. Excepción autorizada por el usuario."
+        },
+        {
+          "grupo": "traccion",
+          "orden": 2,
+          "nombre": "Jalón al pecho en máquina divergente",
+          "series": 1,
+          "objetivo": "90-120 s tempo 10/10"
+        },
+        {
+          "grupo": "empuje",
+          "orden": 3,
+          "nombre": "Chest press",
+          "series": 1,
+          "objetivo": "90-120 s tempo 10/10"
+        },
+        {
+          "grupo": "traccion",
+          "orden": 4,
+          "nombre": "Remo sentado en máquina",
+          "series": 1,
+          "objetivo": "90-120 s tempo 10/10"
+        },
+        {
+          "grupo": "empuje",
+          "orden": 5,
+          "nombre": "Press de hombro convergente",
+          "series": 1,
+          "objetivo": "90-120 s tempo 10/10"
+        },
+        {
+          "grupo": "core",
+          "orden": 6,
+          "nombre": "Dead bug isométrico (lumbar pegada al suelo)",
+          "series": 1,
+          "objetivo": "20-30 s"
+        }
       ]
     }
   },
   "sistema_seguimiento": {
     "modelo": "analogo_a_bilbo_archivado",
     "foco_mejora": {
+      "ejercicio": "Bloque Slow Fit (5 máquinas)",
+      "lugar": "gimnasio",
+      "dias": [
+        "miercoles"
+      ],
+      "desde": "2026-09-16",
+      "seguimiento": "Progresion_calistenia.xlsx, hoja 'Slow Fit' (una fila por máquina y sesión).",
+      "regla": "Cada máquina progresa por separado: TUT >=120 s sube carga, 90-119 s mantiene, <90 s baja."
+    },
+    "principales_en_mantenimiento": [
+      "Flexiones",
+      "Sentadilla en pared",
+      "Dead bug isométrico",
+      "Dead hang (serie máxima)"
+    ],
+    "principales_seguimiento": "Solo último resultado logrado, en config.json > estado_principales. Sin progresión planificada.",
+    "secundarios_sin_seguimiento": [
+      "Pike push-up isométrico",
+      "Remo con mancuerna a 1 mano",
+      "Zancada isométrica",
+      "Abducción isométrica con pierna estirada"
+    ],
+    "logs": "logs/AAAA-MM.md, una fila por sesión",
+    "hoja_impresa": "El usuario también lleva una hoja PDF impresa (6 columnas de semanas) como copia física. Si difiere de este repositorio, preguntar cuál es la fuente válida.",
+    "foco_mejora_anterior": {
       "ejercicio": "Dead hang (agarre) — cambiado 2026-08-24, antes era la negativa de dominada",
       "grupo": "traccion",
       "lugar": "casa",
-      "dias": {"F1": "lunes", "F2": "viernes"},
+      "dias": {
+        "F1": "lunes",
+        "F2": "viernes"
+      },
       "esquema": "1 serie máxima en fresco (la que se mide y se progresa) + 2 series de respaldo a 15 s. Cambiado 2026-09-11.",
       "seguimiento": "Progresion_calistenia.xlsx, hoja 'Ciclo 2'. La hoja 'Ciclo 1 (histórico)' conserva el esquema anterior.",
       "objetivo_inicial_ciclo2_s": 31,
       "criterio_avance": "Serie máxima de 45 s",
       "regla_no_progresion": "Si la serie máxima no alcanza el objetivo dos sesiones seguidas, se congela el objetivo hasta superarlo."
-    },
-    "principales_en_mantenimiento": [
-      "Flexiones", "Sentadilla en pared", "Dead bug isométrico",
-      "Remo sentado en máquina (gimnasio)", "Fondos en paralelas (gimnasio)",
-      "Sentadilla isométrica (máquina/prensa, gimnasio)"
-    ],
-    "principales_seguimiento": "Solo último resultado logrado, en config.json > estado_principales. Sin progresión planificada.",
-    "secundarios_sin_seguimiento": [
-      "Pike push-up isométrico", "Remo con mancuerna a 1 mano",
-      "Zancada isométrica", "Abducción isométrica con pierna estirada", "Dominadas completas / negativas (barra alta, gimnasio)"
-    ],
-    "logs": "logs/AAAA-MM.md, una fila por sesión",
-    "hoja_impresa": "El usuario también lleva una hoja PDF impresa (6 columnas de semanas) como copia física. Si difiere de este repositorio, preguntar cuál es la fuente válida."
+    }
+  },
+  "sesiones_retiradas": {
+    "full_body_gimnasio": {
+      "dias": [
+        "miercoles"
+      ],
+      "ejercicios": [
+        {
+          "grupo": "traccion",
+          "orden": 1,
+          "nombre": "Dominada australiana en el rack (si está libre)",
+          "series": 2,
+          "objetivo": "10-15 reps",
+          "nota": "Preferente desde 2026-08-26: el rack sí estuvo libre. Si está ocupado, se usa el remo sentado como sustituto."
+        },
+        {
+          "grupo": "traccion",
+          "orden": "sustituto",
+          "nombre": "Remo sentado en máquina (agarre divergente)",
+          "series": 2,
+          "objetivo": "8-12 reps",
+          "nota": "Sustituto de la dominada australiana cuando el rack está ocupado."
+        },
+        {
+          "grupo": "traccion",
+          "orden": 2,
+          "nombre": "Dominada asistida / negativas (barra alta)",
+          "series": 2,
+          "objetivo": "3-5 reps",
+          "nota": "Único día donde se hacen dominadas (2026-08-24). En casa solo dead hang. Factor limitante: el agarre de la máquina es más ancho que la barra de casa."
+        },
+        {
+          "grupo": "empuje",
+          "orden": 1,
+          "nombre": "Fondos en paralelas (no bajar de 90° de codo)",
+          "series": 2,
+          "objetivo": "6-10 reps",
+          "nota": "2026-08-26: con −4,5 kg de asistencia resultó fácil. Siguiente paso: quitar la asistencia."
+        },
+        {
+          "grupo": "piernas",
+          "orden": 1,
+          "nombre": "Sentadilla isométrica (máquina de poleas)",
+          "series": 2,
+          "objetivo": "30-40 s"
+        },
+        {
+          "grupo": "biceps",
+          "orden": 1,
+          "nombre": "Curl con barra W",
+          "series": 3,
+          "objetivo": "10 reps",
+          "nota": "Añadido por el usuario 2026-08-26. Solo el día de gimnasio."
+        },
+        {
+          "grupo": "triceps",
+          "orden": 1,
+          "nombre": "Press francés con barra W",
+          "series": 3,
+          "objetivo": "10 reps",
+          "nota": "Añadido por el usuario 2026-08-26. Solo el día de gimnasio."
+        },
+        {
+          "grupo": "piernas",
+          "orden": "sustituto",
+          "nombre": "Sentadilla en pared (si el aparato está ocupado)",
+          "series": 2,
+          "objetivo": "30-45 s",
+          "nota": "sustituto, no se suma como serie extra"
+        },
+        {
+          "grupo": "core",
+          "orden": 1,
+          "nombre": "Dead bug isométrico (lumbar pegada al suelo)",
+          "series": 1,
+          "objetivo": "20-30 s",
+          "nota": "Sustituye a plancha frontal y bird dog también en el gimnasio (2026-08-24), por coherencia con la descarga."
+        }
+      ],
+      "retirada": "2026-09-16"
+    }
   }
 }

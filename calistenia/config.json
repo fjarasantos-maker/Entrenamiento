@@ -1,8 +1,104 @@
 {
-  "nota": "Rutina activa: calistenia + isométricos en casa (reemplaza al método Bilbo, archivado en archivo_bilbo/). Solo el foco de mejora persigue progresión formal, en Progresion_calistenia.xlsx. Los demás principales se mantienen en el objetivo fijo de rutina.md, ajustando ligeramente por adaptación. Los secundarios no llevan seguimiento.",
+  "nota": "Rutina activa: calistenia + isométricos en casa (lunes y viernes) y Slow Fit en máquinas (miércoles, desde 2026-09-16). El foco de mejora es el bloque Slow Fit, en Progresion_calistenia.xlsx hoja 'Slow Fit'. Los demás principales se mantienen en su objetivo fijo. Los secundarios no llevan seguimiento.",
   "rutina_activa": "calistenia_isometricos_casa",
   "fecha_inicio": "2026-08-20",
+  "estado_principales": {
+    "Flexiones": {
+      "modo": "mantenimiento",
+      "objetivo": "2 series x 8-12 reps",
+      "ultimo_logrado": "3 series lentas: 10, 9, 4 reps = 23 (2026-09-14). Mejora la 3ª serie respecto al 11/09.",
+      "nota": "Desde el 11/09 el usuario las hace con tempo lento buscando tensión. Anotar siempre el tempo para no comparar peras con manzanas."
+    },
+    "Sentadilla en pared": {
+      "modo": "mantenimiento",
+      "objetivo": "2 series x 30-45 s",
+      "ultimo_logrado": "50 s + 35 s = 85 s (2026-09-14) — récord en serie única (antes 45 s), pero vuelve la caída en la 2ª"
+    },
+    "Plancha frontal": {
+      "modo": "mantenimiento",
+      "objetivo": "1 serie x 30-45 s",
+      "ultimo_logrado": "25 s sin dolor lumbar (2026-08-26, gimnasio)",
+      "nota": "Reintroducida sin molestias; se mantiene el dead bug como core principal."
+    },
+    "Dead bug isométrico": {
+      "modo": "mantenimiento",
+      "objetivo": "1 serie x 20-30 s",
+      "ultimo_logrado": "45 s (2026-09-16, gimnasio) — récord"
+    },
+    "Dead hang (casa)": {
+      "modo": "mantenimiento",
+      "objetivo": "1 serie máxima + 2 x 15 s de respaldo",
+      "ultimo_logrado": "Serie máxima 29 s; respaldo 15 + 10 s (2026-09-14)",
+      "record_s": 30
+    }
+  },
+  "cargas_actuales": {
+    "Remo con mancuerna a 1 mano": {
+      "peso_por_mancuerna_kg": "9,5 (8 kg en discos — 2 kg + 2 kg en cada extremo — más el mango, ~1,5 kg sin pesar)",
+      "ultimo_logrado": "10 reps/lado @ 9,5 kg con tempo lento (2026-09-11). Brazo izquierdo al límite en la última rep.",
+      "siguiente_paso": "El usuario opta por progresar con tempo lento manteniendo 9,5 kg, en vez de subir a 11,5 kg. Se mantiene así mientras siga costándole; revisar si vuelve a pasar de 12 reps limpias.",
+      "referencia": "material_casa.md"
+    }
+  },
+  "ultima_fecha": "2026-09-16",
+  "ultima_sesion_completa": {
+    "fecha": "2026-09-16",
+    "dia": "gimnasio (miércoles)",
+    "nota": "Primera sesión Slow Fit (calibración). Jalón y remo a 18 kg llegan a 120 s con facilidad: suben una placa. Press hombro (14 kg) y chest press se quedan en 60 s, muy exigentes: mismo peso y más tiempo. Prensa isométrica 45 s. Dead bug 45 s, récord."
+  },
+  "temas_abiertos": [
+    "Anotar el peso de la prensa en la próxima sesión (el 16/09 no se registró).",
+    "Asimetría izquierda-derecha ya cuantificada: abducción 35 s derecha vs 25 s izquierda (14/09), más el agarre y la zancada. Si se mantiene, valorar empezar siempre por el lado izquierdo e igualar el tiempo del derecho al que aguante el izquierdo.",
+    "Pike push-up muy inconsistente (2\", 9\", 14\" el 11/09). El usuario dice que pierde fuerza al colocarse. Probar una entrada fija (pies sobre un step, o apoyo en pared) para eliminar esa variable.",
+    "Nuevo método: repeticiones lentas en flexiones y remo desde el 11/09. Anotar siempre el tempo; los totales no son comparables con las sesiones previas.",
+    "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza.",
+    "El pike sigue con caída muy marcada tras la 1ª serie (18\", 9\", 6\" el 14/09), igual que el dead hang. Valorar aplicarle el mismo esquema: una serie máxima + respaldo a tiempo fijo."
+  ],
+  "calendario_fijo": {
+    "desde": "2026-08-31",
+    "dias": [
+      "lunes",
+      "miercoles",
+      "viernes"
+    ],
+    "motivo": "Decisión del usuario tras 4 sesiones con un solo día de descanso y mucha fatiga. Garantiza un día de descanso entre sesiones y dos seguidos el fin de semana.",
+    "regla": "No entrenar sábado ni domingo. El descanso del finde es parte del plan."
+  },
+  "descarga_cerrada": {
+    "desde": "2026-08-24",
+    "hasta": "2026-08-28",
+    "resultado": "Cerrada. Tres sesiones seguidas sin dolor (26, 28 y 31/08). Los ejercicios sustitutos (abducción en vez de puente, dead bug en vez de plancha+bird dog) se quedan como definitivos.",
+    "pendiente": "Recuperar volumen subiendo tiempos, no series."
+  },
+  "ausencias": [
+    {
+      "fechas": "2026-09-02 y 2026-09-04",
+      "motivo": "Agenda. Sin entrenar. Una semana completa entre el 31/08 y el 07/09."
+    }
+  ],
+  "orden_sesion_casa": "El usuario alterna empuje/tracción como primer grupo de cada sesión, para que ninguno llegue siempre fatigado (confirmado 2026-09-11).",
   "foco_mejora": {
+    "grupo": "Full body (máquinas)",
+    "ejercicio": "Bloque Slow Fit",
+    "lugar": "gimnasio",
+    "dias": [
+      "miercoles"
+    ],
+    "desde": "2026-09-16",
+    "maquinas": [
+      "Prensa",
+      "Jalón al pecho divergente",
+      "Chest press",
+      "Remo sentado en máquina",
+      "Press hombro convergente"
+    ],
+    "protocolo": "1 serie por máquina, tempo 10/10, TUT objetivo 90-120 s, sin fallo muscular. Prensa también dinámica desde 2026-09-23 (el 16/09 fue isométrica).",
+    "regla_ajuste": "TUT >=120 s: subir una placa la sesión siguiente. 90-119 s: mantener. <90 s: mantener la carga y buscar más tiempo (decisión del usuario 2026-09-16).",
+    "seguimiento": "Progresion_calistenia.xlsx, hoja 'Slow Fit'",
+    "primera_sesion": "2026-09-16 (calibración de cargas)",
+    "historial_cambios": "2026-09-16: el foco pasa del dead hang al bloque Slow Fit del miércoles. Decisión del usuario."
+  },
+  "foco_anterior_dead_hang": {
     "grupo": "Tracción",
     "ejercicio": "Dead hang (agarre)",
     "lugar": "casa",
@@ -35,29 +131,39 @@
     "record_actual_s": 30,
     "historial_ciclo1": "Mejor serie por sesión: 30, 30, 20, 30 s (28/08, 31/08, 07/09, 11/09). Totales: 57, 55, 53, 61 s."
   },
-  "estado_principales": {
-    "Flexiones": {
-      "modo": "mantenimiento",
-      "objetivo": "2 series x 8-12 reps",
-      "ultimo_logrado": "3 series lentas: 10, 9, 4 reps = 23 (2026-09-14). Mejora la 3ª serie respecto al 11/09.",
-      "nota": "Desde el 11/09 el usuario las hace con tempo lento buscando tensión. Anotar siempre el tempo para no comparar peras con manzanas."
+  "estado_slow_fit": {
+    "Prensa": {
+      "carga_kg": null,
+      "ultimo_tut_s": 45,
+      "modalidad": "isométrica el 16/09; dinámica desde el 23/09",
+      "proxima_sesion": "Slow Fit 10/10 en rango sin dolor. Anotar el peso (no se registró el 16/09)."
     },
-    "Sentadilla en pared": {
-      "modo": "mantenimiento",
-      "objetivo": "2 series x 30-45 s",
-      "ultimo_logrado": "50 s + 35 s = 85 s (2026-09-14) — récord en serie única (antes 45 s), pero vuelve la caída en la 2ª"
+    "Jalón al pecho divergente": {
+      "carga_kg": 18,
+      "ultimo_tut_s": 120,
+      "sensacion": "fácil",
+      "proxima_sesion": "subir una placa"
     },
-    "Plancha frontal": {
-      "modo": "mantenimiento",
-      "objetivo": "1 serie x 30-45 s",
-      "ultimo_logrado": "25 s sin dolor lumbar (2026-08-26, gimnasio)",
-      "nota": "Reintroducida sin molestias; se mantiene el dead bug como core principal."
+    "Chest press": {
+      "carga_kg": 18,
+      "ultimo_tut_s": 60,
+      "sensacion": "muy exigente",
+      "proxima_sesion": "misma carga, más tiempo"
     },
-    "Dead bug isométrico": {
-      "modo": "mantenimiento",
-      "objetivo": "1 serie x 20-30 s",
-      "ultimo_logrado": "35 s (2026-09-14) — récord"
+    "Remo sentado en máquina": {
+      "carga_kg": 18,
+      "ultimo_tut_s": 120,
+      "sensacion": "fácil",
+      "proxima_sesion": "subir una placa"
     },
+    "Press hombro convergente": {
+      "carga_kg": 14,
+      "ultimo_tut_s": 60,
+      "sensacion": "muy exigente",
+      "proxima_sesion": "misma carga, más tiempo"
+    }
+  },
+  "historico_gimnasio_retirado": {
     "Fondos en paralelas (gimnasio)": {
       "modo": "mantenimiento",
       "objetivo": "2 series x 6-10 reps",
@@ -98,52 +204,10 @@
       "ultimo_logrado": "15 kg (2026-08-26)"
     }
   },
-  "cargas_actuales": {
-    "Remo con mancuerna a 1 mano": {
-      "peso_por_mancuerna_kg": "9,5 (8 kg en discos — 2 kg + 2 kg en cada extremo — más el mango, ~1,5 kg sin pesar)",
-      "ultimo_logrado": "10 reps/lado @ 9,5 kg con tempo lento (2026-09-11). Brazo izquierdo al límite en la última rep.",
-      "siguiente_paso": "El usuario opta por progresar con tempo lento manteniendo 9,5 kg, en vez de subir a 11,5 kg. Se mantiene así mientras siga costándole; revisar si vuelve a pasar de 12 reps limpias.",
-      "referencia": "material_casa.md"
-    }
-  },
-  "ultima_fecha": "2026-09-14",
-  "ultima_sesion_completa": {
-    "fecha": "2026-09-14",
-    "dia": "casa (lunes)",
-    "nota": "Primera sesión del Ciclo 2 del dead hang: 29 s de serie máxima, sin llegar al objetivo de 31 s. Récords en pike (18 s en serie única), sentadilla en pared (50 s), zancada (35 s/lado), dead bug (35 s) y abducción derecha (35 s). Aparece una asimetría clara en la abducción: 35 s derecha frente a 25 s izquierda."
-  },
-  "temas_abiertos": [
-    "Serie máxima del dead hang clavada en 30 s en tres de las cuatro sesiones del ciclo 1. El ciclo 2 arranca con objetivo 31 s para romper ese techo.",
-    "Asimetría izquierda-derecha ya cuantificada: abducción 35 s derecha vs 25 s izquierda (14/09), más el agarre y la zancada. Si se mantiene, valorar empezar siempre por el lado izquierdo e igualar el tiempo del derecho al que aguante el izquierdo.",
-    "Pike push-up muy inconsistente (2\", 9\", 14\" el 11/09). El usuario dice que pierde fuerza al colocarse. Probar una entrada fija (pies sobre un step, o apoyo en pared) para eliminar esa variable.",
-    "Nuevo método: repeticiones lentas en flexiones y remo desde el 11/09. Anotar siempre el tempo; los totales no son comparables con las sesiones previas.",
-    "Fondos en paralelas: ya se hacen libres y llegan a 10 reps, por encima del objetivo (6-10). Replantear el rango o añadir dificultad.",
-    "Dominadas: primera serie libre lograda (4 reps). Decidir con el usuario si se pasa a un esquema libre + asistidas de refuerzo, en vez de tratarlas como un solo ejercicio asistido.",
-    "Sentadilla isométrica de gimnasio: clavada en 25 s @ 45 kg desde el 26/08, por debajo del objetivo de 30-40 s. Valorar bajar carga para poder subir tiempo.",
-    "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza.",
-    "El pike sigue con caída muy marcada tras la 1ª serie (18\", 9\", 6\" el 14/09), igual que el dead hang. Valorar aplicarle el mismo esquema: una serie máxima + respaldo a tiempo fijo."
-  ],
-  "calendario_fijo": {
-    "desde": "2026-08-31",
-    "dias": [
-      "lunes",
-      "miercoles",
-      "viernes"
-    ],
-    "motivo": "Decisión del usuario tras 4 sesiones con un solo día de descanso y mucha fatiga. Garantiza un día de descanso entre sesiones y dos seguidos el fin de semana.",
-    "regla": "No entrenar sábado ni domingo. El descanso del finde es parte del plan."
-  },
-  "descarga_cerrada": {
-    "desde": "2026-08-24",
-    "hasta": "2026-08-28",
-    "resultado": "Cerrada. Tres sesiones seguidas sin dolor (26, 28 y 31/08). Los ejercicios sustitutos (abducción en vez de puente, dead bug en vez de plancha+bird dog) se quedan como definitivos.",
-    "pendiente": "Recuperar volumen subiendo tiempos, no series."
-  },
-  "ausencias": [
+  "cambios_restricciones": [
     {
-      "fechas": "2026-09-02 y 2026-09-04",
-      "motivo": "Agenda. Sin entrenar. Una semana completa entre el 31/08 y el 07/09."
+      "fecha": "2026-09-16",
+      "cambio": "La prensa del miércoles pasa a Slow Fit dinámico (tempo 10/10, rango sin dolor). Excepción a 'piernas solo isométricos', decidida por el usuario: el Slow Fit está pensado para articulaciones sensibles. El resto de ejercicios de pierna siguen siendo isométricos."
     }
-  ],
-  "orden_sesion_casa": "El usuario alterna empuje/tracción como primer grupo de cada sesión, para que ninguno llegue siempre fatigado (confirmado 2026-09-11)."
+  ]
 }

@@ -4,19 +4,19 @@ Repositorio para hacer seguimiento de mis entrenamientos, pensado para usarse co
 
 ## Rutina activa: calistenia + isométricos en casa
 
-Desde el 20/08/2026, sustituye al método Bilbo con pesos libres en gimnasio (saturación de banca / falta de tiempo). Tres sesiones semanales full body: lunes y viernes en casa, miércoles en el gimnasio (solo para lo que exige barra baja o paralelas).
+Desde el 20/08/2026, sustituye al método Bilbo con pesos libres en gimnasio (saturación de banca / falta de tiempo). Tres sesiones semanales full body: lunes y viernes en casa, miércoles en el gimnasio con una sesión Slow Fit en máquinas (desde 16/09/2026).
 
 ## Cómo funciona
 
 Sistema de seguimiento análogo al método Bilbo archivado: solo un ejercicio (el foco de mejora) lleva progresión formal a la vez; el resto se mantiene en su objetivo fijo.
 
 1. Claude lee [`asistente.md`](asistente.md), [`rutina.md`](rutina.md) / [`rutina.json`](rutina.json) y [`material_casa.md`](material_casa.md) para saber la sesión del día y cómo dosificar carga en los ejercicios con mancuerna.
-2. El foco de mejora actual — negativa controlada de dominada — se registra en [`Progresion_calistenia.xlsx`](Progresion_calistenia.xlsx), hoja `Ciclo`, igual que el Bilbo pero con segundos en vez de kilos.
-3. Los principales en mantenimiento (Flexiones, Sentadilla en pared, Plancha frontal, y en el día de gimnasio Dominadas australianas, Fondos en paralelas, Sentadilla isométrica) anotan solo su último resultado logrado en `config.json` → `estado_principales`, sin progresión planificada.
+2. El foco de mejora actual — el bloque Slow Fit del miércoles — se registra en [`Progresion_calistenia.xlsx`](Progresion_calistenia.xlsx), hoja `Slow Fit`, con carga y tiempo bajo tensión por máquina.
+3. Los principales en mantenimiento (Flexiones, Sentadilla en pared, Dead bug y Dead hang) anotan solo su último resultado logrado en `config.json` → `estado_principales`, sin progresión planificada.
 4. Los secundarios no llevan seguimiento; el usuario ajusta su carga o tiempo libremente cada sesión.
 5. Las sesiones se registran en `logs/AAAA-MM.md`, un archivo nuevo por mes.
 6. El usuario también lleva una hoja PDF impresa como copia física — si los datos no coinciden con este repositorio, hay que preguntar cuál es la fuente válida.
-7. Las restricciones (piernas solo isométrico, series fijas, volumen semanal bajo, miércoles único día de gimnasio) son decisiones ya tomadas por el usuario — Claude no las propone ni las flexibiliza por iniciativa propia.
+7. Las restricciones (piernas solo isométrico, series fijas, volumen semanal bajo, miércoles único día de gimnasio, con Slow Fit) son decisiones ya tomadas por el usuario — Claude no las propone ni las flexibiliza por iniciativa propia.
 
 ## Estructura
 
@@ -28,7 +28,7 @@ entrenamiento/
 ├── rutina.json                   # versión estructurada de rutina.md para lectura conversacional
 ├── material_casa.md              # inventario de mancuernas/discos en casa y referencia de carga
 ├── config.json                   # rutina activa, foco de mejora y estado de los principales en mantenimiento
-├── Progresion_calistenia.xlsx    # progresión formal del foco de mejora (negativa controlada de dominada)
+├── Progresion_calistenia.xlsx    # progresión formal del foco de mejora (Slow Fit)
 ├── hoja_seguimiento_entrenamiento.pdf  # hoja imprimible (copia física de bolsillo)
 ├── logs/
 │   └── AAAA-MM.md                 # log de sesiones, uno nuevo por mes
