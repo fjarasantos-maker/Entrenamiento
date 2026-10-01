@@ -84,7 +84,7 @@ Cambio de enfoque decidido por el usuario el 16/09/2026: el día de gimnasio pas
 | 5 · Empuje | Press de hombro convergente | 1 | 90-120 s a tempo 10/10 |
 | 6 · Core | Dead bug isométrico (lumbar pegada al suelo) | 1 | 20-30 s |
 
-- **Prensa:** el 16/09/2026 se hizo en isométrico. Desde el 23/09/2026 se hace en Slow Fit dinámico, como excepción a la restricción 1 decidida por el usuario. Se usa solo el rango que no duele y no se bloquean las rodillas arriba. Si aparece dolor articular, se vuelve al isométrico.
+- **Prensa:** el 16/09/2026 se hizo en isométrico. Desde el 23/09/2026 se hace en Slow Fit dinámico, como excepción a la restricción 1 decidida por el usuario. Se usa solo el rango que no duele y no se bloquean las rodillas arriba. Si aparece dolor articular, se vuelve al isométrico. Comprobado el 30/09/2026: 18 kg y 100 s sin dolor de rodilla.
 - Orden alternando tracción y empuje para que cada máquina llegue con el grupo más fresco. Si una máquina está ocupada, se salta y se hace al final.
 - **Carga inicial (primera sesión = calibración):** un peso con el que se podrían hacer unas 12-15 repeticiones normales. Como referencia, en el remo sentado (50 kg x 10 normal el 19/08) se puede empezar con unos 30-35 kg. En la prensa isométrica, empezar por debajo de los 45 kg con los que la sentadilla isométrica se quedaba en 25 s (por ejemplo, 30 kg).
 - **Regla de ajuste por máquina (para la sesión siguiente, nunca en la misma):**

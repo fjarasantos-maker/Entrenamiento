@@ -23,7 +23,7 @@
     "Dead bug isométrico": {
       "modo": "mantenimiento",
       "objetivo": "1 serie x 20-30 s",
-      "ultimo_logrado": "45 s (2026-09-16, gimnasio) — récord"
+      "ultimo_logrado": "35 s (2026-09-30, gimnasio). Récord vigente 45 s (16/09)."
     },
     "Dead hang (casa)": {
       "modo": "mantenimiento",
@@ -40,19 +40,21 @@
       "referencia": "material_casa.md"
     }
   },
-  "ultima_fecha": "2026-09-16",
+  "ultima_fecha": "2026-09-30",
   "ultima_sesion_completa": {
-    "fecha": "2026-09-16",
+    "fecha": "2026-09-30",
     "dia": "gimnasio (miércoles)",
-    "nota": "Primera sesión Slow Fit (calibración). Jalón y remo a 18 kg llegan a 120 s con facilidad: suben una placa. Press hombro (14 kg) y chest press se quedan en 60 s, muy exigentes: mismo peso y más tiempo. Prensa isométrica 45 s. Dead bug 45 s, récord."
+    "nota": "Segunda sesión Slow Fit registrada. Prensa ya dinámica: 18 kg, 100 s, en rango. Jalón 23 kg / 75 s tras subir de 18. Remo 23 kg / 45 s tras subir de 18. Chest press y press hombro repiten 60 s con la misma carga. Dead bug 35 s."
   },
   "temas_abiertos": [
-    "Anotar el peso de la prensa en la próxima sesión (el 16/09 no se registró).",
+    "Remo sentado: con 23 kg el TUT cae a 45 s, mientras que el jalón aguanta 75 s con la misma carga. Valorar bajar el remo a ~20 kg.",
+    "Chest press y press hombro llevan dos sesiones clavados en 60 s con la misma carga. Si no sube el tiempo la próxima, valorar bajar un escalón.",
     "Asimetría izquierda-derecha ya cuantificada: abducción 35 s derecha vs 25 s izquierda (14/09), más el agarre y la zancada. Si se mantiene, valorar empezar siempre por el lado izquierdo e igualar el tiempo del derecho al que aguante el izquierdo.",
     "Pike push-up muy inconsistente (2\", 9\", 14\" el 11/09). El usuario dice que pierde fuerza al colocarse. Probar una entrada fija (pies sobre un step, o apoyo en pared) para eliminar esa variable.",
     "Nuevo método: repeticiones lentas en flexiones y remo desde el 11/09. Anotar siempre el tempo; los totales no son comparables con las sesiones previas.",
     "El usuario hace 3 series donde la rutina marca 2. Sin dolor y encadenando récords; decidir si se formaliza.",
-    "El pike sigue con caída muy marcada tras la 1ª serie (18\", 9\", 6\" el 14/09), igual que el dead hang. Valorar aplicarle el mismo esquema: una serie máxima + respaldo a tiempo fijo."
+    "El pike sigue con caída muy marcada tras la 1ª serie (18\", 9\", 6\" el 14/09), igual que el dead hang. Valorar aplicarle el mismo esquema: una serie máxima + respaldo a tiempo fijo.",
+    "Prensa dinámica confirmada sin dolor de rodilla (30/09). Revisar de nuevo si se sube carga."
   ],
   "calendario_fijo": {
     "desde": "2026-08-31",
@@ -74,6 +76,10 @@
     {
       "fechas": "2026-09-02 y 2026-09-04",
       "motivo": "Agenda. Sin entrenar. Una semana completa entre el 31/08 y el 07/09."
+    },
+    {
+      "fechas": "2026-09-23",
+      "motivo": "Mudanza. El usuario considera que el esfuerzo de la mudanza ya fue entrenamiento suficiente."
     }
   ],
   "orden_sesion_casa": "El usuario alterna empuje/tracción como primer grupo de cada sesión, para que ninguno llegue siempre fatigado (confirmado 2026-09-11).",
@@ -133,34 +139,36 @@
   },
   "estado_slow_fit": {
     "Prensa": {
-      "carga_kg": null,
-      "ultimo_tut_s": 45,
-      "modalidad": "isométrica el 16/09; dinámica desde el 23/09",
-      "proxima_sesion": "Slow Fit 10/10 en rango sin dolor. Anotar el peso (no se registró el 16/09)."
+      "carga_kg": 18,
+      "ultimo_tut_s": 100,
+      "modalidad": "dinámica (Slow Fit 10/10) desde el 30/09",
+      "fecha": "2026-09-30",
+      "proxima_sesion": "mantener 18 kg (TUT en rango 90-119 s)",
+      "nota_articular": "Sin dolor de rodilla con la prensa dinámica Slow Fit (confirmado por el usuario el 30/09/2026). La excepción a 'piernas solo isométricos' se mantiene."
     },
     "Jalón al pecho divergente": {
-      "carga_kg": 18,
-      "ultimo_tut_s": 120,
-      "sensacion": "fácil",
-      "proxima_sesion": "subir una placa"
+      "carga_kg": 23,
+      "ultimo_tut_s": 75,
+      "fecha": "2026-09-30",
+      "proxima_sesion": "mantener 23 kg y buscar más tiempo"
     },
     "Chest press": {
       "carga_kg": 18,
       "ultimo_tut_s": 60,
-      "sensacion": "muy exigente",
-      "proxima_sesion": "misma carga, más tiempo"
+      "fecha": "2026-09-30",
+      "proxima_sesion": "mantener 18 kg y buscar más tiempo (segundo 60 s seguido)"
     },
     "Remo sentado en máquina": {
-      "carga_kg": 18,
-      "ultimo_tut_s": 120,
-      "sensacion": "fácil",
-      "proxima_sesion": "subir una placa"
+      "carga_kg": 23,
+      "ultimo_tut_s": 45,
+      "fecha": "2026-09-30",
+      "proxima_sesion": "El salto de 18 a 23 kg dejó el TUT en 45 s: valorar bajar a ~20 kg (decisión del usuario)"
     },
     "Press hombro convergente": {
       "carga_kg": 14,
       "ultimo_tut_s": 60,
-      "sensacion": "muy exigente",
-      "proxima_sesion": "misma carga, más tiempo"
+      "fecha": "2026-09-30",
+      "proxima_sesion": "mantener 14 kg y buscar más tiempo (segundo 60 s seguido)"
     }
   },
   "historico_gimnasio_retirado": {
