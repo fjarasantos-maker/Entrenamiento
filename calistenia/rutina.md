@@ -7,23 +7,38 @@ Usuario de 50 años, con molestias articulares, que sustituye el trabajo con pes
 1. En piernas, solo isométricos (excepción desde el 16/09/2026: la prensa del miércoles se hace en Slow Fit dinámico, a tempo 10/10, en un rango sin dolor y sin bloquear las rodillas; decisión del usuario, porque el Slow Fit está pensado para articulaciones sensibles). Nada de sentadilla, zancada o similar con repetición ni con explosividad — el usuario lo descartó explícitamente por su condición articular. Ejercicios permitidos: sentadilla en pared, puente de glúteo isométrico, zancada isométrica con apoyo, y variantes isométricas equivalentes.
 2. El número de series de cada ejercicio es fijo, no un rango — se acordó así porque un rango generaba indecisión y tendencia a quedarse en el mínimo. Dentro de cada grupo (empuje / tracción / piernas / core), el primer ejercicio de la sesión lleva más series que el último.
 3. Ningún ejercicio va al fallo. Se deja siempre margen de 2-3 repeticiones en reserva (o, en isométricos, se corta el tiempo antes de que la técnica se rompa).
-4. Volumen semanal bajo por grupo muscular, adecuado a 50 años con articulaciones sensibles: en torno a 8 series de empuje, 9 de tracción, 10 de piernas y 6 de core, sumando las tres sesiones semanales. No se añaden series ni ejercicios extra para "optimizar" — es una decisión consciente del usuario, no un punto abierto.
-5. Miércoles es el único día de gimnasio. Desde el 16/09/2026 se dedica a una sesión **Slow Fit** (Super Slow / Slow Training) en máquinas guiadas: una sola serie por máquina, muy lenta. Si una máquina está ocupada, se cambia el orden en vez de esperar.
+4. Volumen semanal: desde el 06/10/2026, 1 serie por máquina en cada una de las dos sesiones. La referencia anterior era un volumen semanal bajo por grupo muscular, adecuado a 50 años con articulaciones sensibles: en torno a 8 series de empuje, 9 de tracción, 10 de piernas y 6 de core, sumando las tres sesiones semanales. No se añaden series ni ejercicios extra para "optimizar" — es una decisión consciente del usuario, no un punto abierto.
+5. Martes y jueves son los días de gimnasio (desde el 06/10/2026, a prueba). Desde el 16/09/2026 se dedica a una sesión **Slow Fit** (Super Slow / Slow Training) en máquinas guiadas: una sola serie por máquina, muy lenta. Si una máquina está ocupada, se cambia el orden en vez de esperar.
 6. Progresión: en ejercicios con repeticiones, se sube repeticiones o se avanza hacia la dominada estricta antes de añadir peso — el número de series se mantiene fijo. En isométricos, se alarga primero el tiempo de mantenimiento (p. ej. de 20 a 45 s) antes de añadir carga con las mancuernas/kettlebell — el número de series también se mantiene fijo.
 7. Si aparece dolor agudo, creciente o que altera la técnica, se interrumpe el ejercicio y no se intenta compensar con más trabajo.
 8. Aviso lumbar (22/08/2026): tras piernas + core el usuario notó dolor (no solo fatiga) en la zona lumbar, sobre todo asociado a puente de glúteo isométrico y bird dog. Cuidar técnica (puente: apretar glúteo sin arquear lumbar, subir solo hasta línea recta caderas-hombros-rodillas; bird dog: abdomen firme, rango corto sin rotar cadera ni arquear espalda) y bajar el tiempo objetivo a la mitad hasta confirmar que no reaparece. Si el dolor persiste con técnica correcta y menos tiempo, no se sigue ajustando en casa: se recomienda que lo revise un fisioterapeuta.
 
 ## Calendario semanal
 
+**Desde el 06/10/2026 (a prueba):** dos sesiones Slow Fit en el gimnasio y nada en casa. El usuario quiere ver cómo recupera con dos días. Si la segunda sesión de la semana sale peor dos semanas seguidas, se vuelve a un solo día.
+
+| Día | Lugar | Sesión |
+|---|---|---|
+| Martes | Gimnasio | Slow Fit en máquinas |
+| Jueves | Gimnasio | Slow Fit en máquinas (misma sesión) |
+
+La sesión de casa (flexiones, pike, dead hang, remo con mancuerna, isométricos de pierna y dead bug) queda **en pausa**, no eliminada: su descripción sigue más abajo para poder retomarla.
+
+**Dead hang suelto (desde el 06/10/2026):** el usuario sigue colgándose en casa para mantener el agarre, pero sin cronometrarlo. No es una sesión y no lleva seguimiento: no se piden tiempos ni se registran.
+
+### Calendario anterior (31/08 - 06/10/2026)
+
 | Día | Lugar | Sesión |
 |---|---|---|
 | Lunes | Casa | Full body — empuje + tracción + piernas isométrico + core |
-| Miércoles | Gimnasio | Full body Slow Fit en máquinas (desde 16/09/2026) |
+| Miércoles | Gimnasio | Full body Slow Fit en máquinas |
 | Viernes | Casa | Full body — misma sesión que el lunes |
 
-Tres sesiones semanales, full body en las tres. No hay días de descanso intermedios asignados aparte de martes, jueves, sábado y domingo (libres).
+Dos sesiones semanales, las dos iguales, con 48 h entre ellas y cuatro días sin entrenar hasta el martes siguiente. El descanso es parte del plan.
 
-## Sesión Lunes y Viernes — Casa
+## Sesión de casa — EN PAUSA desde el 06/10/2026
+
+Se conserva tal cual para retomarla si el usuario vuelve a entrenar en casa. Mientras la rutina sea solo Slow Fit, el dead bug se hace al final de las sesiones de gimnasio.
 
 Orden dentro de cada grupo: el primer ejercicio lleva más series que el último.
 
@@ -60,7 +75,7 @@ Regla general: si la siguiente serie sale claramente peor que la anterior, es se
 
 **Cambio del 28/08/2026 — la almeja se endurece.** Con 60 s por lado sin esfuerzo, el clamshell se había quedado corto. Pasa a **abducción isométrica con la pierna estirada**: tumbado de lado, pierna de arriba recta y alineada con el tronco (talón ligeramente hacia atrás, no hacia delante), la subes unos 30-40 cm y la mantienes. Mismo glúteo medio, sin carga lumbar, bastante más exigente. Si con el tiempo también se queda corta, el siguiente escalón es apoyar un disco de 2 kg sobre el muslo, no alargar el tiempo indefinidamente.
 
-## Sesión Miércoles — Gimnasio · Slow Fit (desde 16/09/2026)
+## Sesión de gimnasio · Slow Fit — martes y jueves (desde 06/10/2026)
 
 Cambio de enfoque decidido por el usuario el 16/09/2026: el día de gimnasio pasa a ser una sesión **Slow Fit** (también conocida como Super Slow o Slow Training) aprovechando las máquinas guiadas. Lunes y viernes siguen igual, con calistenia e isométricos en casa.
 
@@ -84,6 +99,7 @@ Cambio de enfoque decidido por el usuario el 16/09/2026: el día de gimnasio pas
 | 5 · Empuje | Press de hombro convergente | 1 | 90-120 s a tempo 10/10 |
 | 6 · Core | Dead bug isométrico (lumbar pegada al suelo) | 1 | 20-30 s |
 
+- **Prensa — rango acortado desde el 13/10/2026:** el usuario elimina el tramo del recorrido en el que la palanca aliviaba el esfuerzo, así que el tiempo baja de 120 a 70 s. Los tiempos anteriores no son comparables y no se sube placa hasta volver a 120 s con el rango nuevo.
 - **Prensa:** el 16/09/2026 se hizo en isométrico. Desde el 23/09/2026 se hace en Slow Fit dinámico, como excepción a la restricción 1 decidida por el usuario. Se usa solo el rango que no duele y no se bloquean las rodillas arriba. Si aparece dolor articular, se vuelve al isométrico. Comprobado el 30/09/2026: 18 kg y 100 s sin dolor de rodilla.
 - Orden alternando tracción y empuje para que cada máquina llegue con el grupo más fresco. Si una máquina está ocupada, se salta y se hace al final.
 - **Carga inicial (primera sesión = calibración):** un peso con el que se podrían hacer unas 12-15 repeticiones normales. Como referencia, en el remo sentado (50 kg x 10 normal el 19/08) se puede empezar con unos 30-35 kg. En la prensa isométrica, empezar por debajo de los 45 kg con los que la sentadilla isométrica se quedaba en 25 s (por ejemplo, 30 kg).
@@ -91,6 +107,7 @@ Cambio de enfoque decidido por el usuario el 16/09/2026: el día de gimnasio pas
   - TUT de 120 s o más con técnica limpia → subir un escalón de carga (≈5 %).
   - TUT de 90-119 s → mantener la carga.
   - TUT por debajo de 90 s → mantener la carga y buscar más tiempo (decisión del usuario, 16/09/2026).
+- **Máquinas en su placa mínima (12/10/2026):** si la placa más baja de una máquina ya deja el tiempo por debajo de 90 s, no hay nada que bajar. No se cambia a mancuerna ni a polea (el ejercicio tiene que ser guiado) ni se acorta el recorrido: se mantiene esa placa y el objetivo pasa a sumar segundos desde donde esté. Es el caso del press de hombro convergente, con 14 kg y 60 s.
 - Anotar siempre la posición del asiento y del respaldo de cada máquina para repetir la misma colocación.
 
 ### Ejercicios que salen del miércoles

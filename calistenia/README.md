@@ -2,9 +2,9 @@
 
 Repositorio para hacer seguimiento de mis entrenamientos, pensado para usarse conversacionalmente con Claude.
 
-## Rutina activa: calistenia + isométricos en casa
+## Rutina activa: Slow Fit en máquinas (martes y jueves)
 
-Desde el 20/08/2026, sustituye al método Bilbo con pesos libres en gimnasio (saturación de banca / falta de tiempo). Tres sesiones semanales full body: lunes y viernes en casa, miércoles en el gimnasio con una sesión Slow Fit en máquinas (desde 16/09/2026).
+Desde el 06/10/2026, dos sesiones semanales de Slow Fit (Super Slow) en máquinas guiadas: martes y jueves, las dos iguales. Es una prueba para ver cómo recupera el usuario con dos días. La rutina de calistenia e isométricos en casa (activa del 20/08 al 06/10/2026, y antes el método Bilbo, en `archivo_bilbo/`) queda en pausa y se conserva en `rutina.md`.
 
 ## Cómo funciona
 
@@ -12,11 +12,11 @@ Sistema de seguimiento análogo al método Bilbo archivado: solo un ejercicio (e
 
 1. Claude lee [`asistente.md`](asistente.md), [`rutina.md`](rutina.md) / [`rutina.json`](rutina.json) y [`material_casa.md`](material_casa.md) para saber la sesión del día y cómo dosificar carga en los ejercicios con mancuerna.
 2. El foco de mejora actual — el bloque Slow Fit del miércoles — se registra en [`Progresion_calistenia.xlsx`](Progresion_calistenia.xlsx), hoja `Slow Fit`, con carga y tiempo bajo tensión por máquina.
-3. Los principales en mantenimiento (Flexiones, Sentadilla en pared, Dead bug y Dead hang) anotan solo su último resultado logrado en `config.json` → `estado_principales`, sin progresión planificada.
+3. El único principal en mantenimiento activo es el Dead bug, que cierra cada sesión; los resultados de la rutina de casa quedan guardados en `config.json` → `casa_en_pausa` anotan solo su último resultado logrado en `config.json` → `estado_principales`, sin progresión planificada.
 4. Los secundarios no llevan seguimiento; el usuario ajusta su carga o tiempo libremente cada sesión.
 5. Las sesiones se registran en `logs/AAAA-MM.md`, un archivo nuevo por mes.
 6. El usuario también lleva una hoja PDF impresa como copia física — si los datos no coinciden con este repositorio, hay que preguntar cuál es la fuente válida.
-7. Las restricciones (piernas solo isométrico, series fijas, volumen semanal bajo, miércoles único día de gimnasio, con Slow Fit) son decisiones ya tomadas por el usuario — Claude no las propone ni las flexibiliza por iniciativa propia.
+7. Las restricciones (piernas solo isométrico, series fijas, volumen semanal bajo, dos días de gimnasio con Slow Fit) son decisiones ya tomadas por el usuario — Claude no las propone ni las flexibiliza por iniciativa propia.
 
 ## Estructura
 

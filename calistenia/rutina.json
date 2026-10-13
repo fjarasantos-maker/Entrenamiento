@@ -1,15 +1,15 @@
 {
   "documento_referencia": "rutina.md",
-  "tipo": "calistenia_isometricos_casa",
-  "motivo_cambio": "Sustituye el método Bilbo (pesos en gimnasio) porque el gimnasio está saturado y esperar la banca hacía perder mucho tiempo. Archivo anterior conservado en archivo_bilbo/.",
+  "tipo": "slow_fit_gimnasio_2_dias",
+  "motivo_cambio": "2026-10-06: el usuario pasa a dos sesiones Slow Fit en el gimnasio (martes y jueves) para probar su recuperación. La rutina de calistenia en casa queda en pausa, conservada en este mismo archivo. Antes sustituyó al método Bilbo (archivo_bilbo/) por saturación del gimnasio.",
   "restricciones_obligatorias": [
     "Piernas: solo isométricos, con una excepción desde 2026-09-16: la prensa del miércoles se hace en Slow Fit dinámico (tempo 10/10, rango sin dolor, sin bloquear rodillas). Decisión del usuario. Nada de explosividad en pierna.",
     "Series fijas por ejercicio, no rangos. Dentro de cada grupo, el primer ejercicio lleva más series que el último.",
     "Ningún ejercicio va al fallo. Margen de 2-3 repeticiones en reserva, o cortar el isométrico antes de perder la técnica.",
     "Semana de descarga desde 2026-08-24: dos sesiones seguidas con dolor lumbar (22 y 24/08) más dolor punzante de hombro izquierdo en dead hang (24/08). El usuario lo atribuye a sobrecarga acumulada. En casa se queda solo el dead hang (las negativas pasan al gimnasio), se sustituye puente de glúteo por almeja isométrica, y plancha+bird dog por dead bug en ambas sesiones. Volumen y tiempos bajados. No subir a 3 series durante la descarga.",
     "Si el dolor lumbar o de hombro reaparece con este volumen reducido y los ejercicios sustituidos, deja de ser atribuible a carga: recomendar valoración por fisioterapeuta antes de seguir progresando.",
-    "Volumen semanal bajo por grupo: ~8 series empuje, ~9 tracción, ~10 piernas, ~6 core, sumando las 3 sesiones.",
-    "Miércoles es el único día de gimnasio. Desde 2026-09-16 se dedica a una sesión Slow Fit en máquinas guiadas (1 serie por máquina, tempo 10/10).",
+    "Volumen semanal: 1 serie por máquina en cada una de las dos sesiones (martes y jueves). El volumen de referencia anterior (~8 empuje, 9 tracción, 10 piernas, 6 core) queda suspendido mientras la rutina sea solo Slow Fit.",
+    "Días de gimnasio: martes y jueves (desde 2026-10-06, a prueba). Si la recuperación no acompaña, se vuelve a un solo día.",
     "Si aparece dolor agudo, creciente o que altera la técnica, se interrumpe el ejercicio sin compensar con más trabajo."
   ],
   "descansos_entre_series": {
@@ -27,18 +27,30 @@
     "remo_con_mancuerna": "Progresión de carga con discos de 1-2 kg. Ver material_casa.md."
   },
   "calendario": {
-    "_nota": "Fijo desde 2026-08-31: lunes, miércoles y viernes. Siempre un día de descanso entre sesiones y dos seguidos el fin de semana. Decisión del usuario tras acumular 4 sesiones con un solo día de descanso y llegar muy cansado.",
-    "lunes": {
-      "lugar": "casa",
-      "sesion": "full_body_casa"
-    },
-    "miercoles": {
+    "_nota": "Desde 2026-10-06: dos sesiones Slow Fit en el gimnasio, martes y jueves, a prueba para ver cómo recupera el usuario. Las sesiones de casa quedan en pausa. Calendario anterior (lunes/miércoles/viernes) conservado en calendario_anterior.",
+    "martes": {
       "lugar": "gimnasio",
       "sesion": "slow_fit_gimnasio"
     },
-    "viernes": {
-      "lugar": "casa",
-      "sesion": "full_body_casa"
+    "jueves": {
+      "lugar": "gimnasio",
+      "sesion": "slow_fit_gimnasio"
+    },
+    "calendario_anterior": {
+      "desde": "2026-08-31",
+      "hasta": "2026-10-06",
+      "lunes": {
+        "lugar": "casa",
+        "sesion": "full_body_casa"
+      },
+      "miercoles": {
+        "lugar": "gimnasio",
+        "sesion": "slow_fit_gimnasio"
+      },
+      "viernes": {
+        "lugar": "casa",
+        "sesion": "full_body_casa"
+      }
     }
   },
   "sesiones": {
@@ -108,11 +120,13 @@
           "objetivo": "20-30 s",
           "nota": "Sustituye a plancha frontal y bird dog (ambos impedidos por dolor lumbar el 24/08)."
         }
-      ]
+      ],
+      "estado": "en pausa desde 2026-10-06 (se conserva para retomarla)"
     },
     "slow_fit_gimnasio": {
       "dias": [
-        "miercoles"
+        "martes",
+        "jueves"
       ],
       "desde": "2026-09-16",
       "protocolo": {
@@ -183,7 +197,8 @@
           "series": 1,
           "objetivo": "20-30 s"
         }
-      ]
+      ],
+      "nota_frecuencia": "Dos sesiones iguales por semana desde 2026-10-06 (a prueba). Las cargas y tiempos se registran por sesión, no por día de la semana."
     }
   },
   "sistema_seguimiento": {
